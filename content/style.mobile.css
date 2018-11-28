@@ -16,7 +16,7 @@ header nav { -ms-flex-direction: row; -webkit-flex-direction: row; flex-directio
 
 content { width: 100%; position:static; overflow:inherit; }
 
-content h1 { font-size: 48pt; letter-spacing: 0; color: #777; margin: 20px 0; }
+content h1 { font-size: 32pt; letter-spacing: 0; color: #777; margin: 20px 0; }
 section.projects > div.full,
 section.projects > div {
     width: 100%;
