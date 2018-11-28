@@ -157,34 +157,33 @@
             var message = $('[name="message"]').val();
             
             var template_params = {
-               "reply_to": email,
-               "from_name": name,
-               "message_html": message
+              	"reply_to": email,
+              	"from_name": name,
+              	"message_html": message,
+		"phone":phone	    
             }
 
           var service_id = "default_service";
           var template_id = "template_R8LWfDB7";
-          emailjs.send(service_id, template_id, template_params).
-          then(function(){
-                    console.log(e);
-                    c = e.success ? "success" : "error";
-                    $('section.contact').addClass(c);
-                    setTimeout(function () { $('section.contact').removeClass(c); }, 2000);
-                    $('.err').removeClass('err');
-                    if (e.err && e.err.length > 0) {
-                        for (var i = 0; i < e.err.length; i++) {
-                            $('[name="' + e.err[i] + '"]').addClass('err');
-                        }
-                    } else {
-                        $('[name="name"]').val('');
-                        $('[name="phone"]').val('');
-                        $('[name="email"]').val('');
-                        $('[name="message"]').val('');
-                    }
-                    $(button).text('SUBMIT');
-                    sending = false;
+          emailjs.send(service_id, template_id, template_params)
+          .then(function(){
+
+		$('section.contact').addClass("success");
+                    
+		setTimeout(function () { $('section.contact').removeClass(c); }, 2000);
+                    
+		$('.err').removeClass('err');
+
+                $('[name="name"]').val('');
+                $('[name="phone"]').val('');
+                $('[name="email"]').val('');
+                $('[name="message"]').val('');
+                    
+                $(button).text('SUBMIT');
+		  
+                sending = false;
+		  
           }, function(err){
-                    console.log(e);
                     $('section.contact').addClass('error');
                     setTimeout(function () {
                         $('section.contact').removeClass('error');
