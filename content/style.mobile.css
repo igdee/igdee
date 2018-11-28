@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    align-items: center;
+    position:static;
+    background: none;
+}
+
+
+.logo { font-size: 72pt; padding: 0; margin-top: 30px; }
+
+header nav { -ms-flex-direction: row; -webkit-flex-direction: row; flex-direction: row; margin: 10px 0; }
+
+content { width: 100%; position:static; overflow:inherit; }
+
+content h1 { font-size: 48pt; letter-spacing: 0; color: #777; margin: 20px 0; }
+section.projects > div.full,
+section.projects > div {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+section.projects > div img { width: 100%; border: 8px solid rgba(255,255,255,0.15); -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.pack { width: 100%; -ms-flex-direction: column; -webkit-flex-direction: column; flex-direction: column; }
+.pack ul li { text-align: center; background: none; border-bottom:1px solid rgba(255,255,255,0.15); }
+.pack ul li:first-child { background: #111; }
+
+div.form { width: 100%; background: none; border: none; padding: 10px; margin: 0; }
+div.form input,
+div.form textarea { background: none; border-bottom:1px solid rgba(255,255,255,0.15); }
+div.form button { background: #111; font-size: 24pt; padding:10px 20px; margin: 20px auto; }
+
+::-webkit-input-placeholder { color: rgba(255,255,255,0.3); }
+:-ms-input-placeholder { color: rgba(255,255,255,0.3); }
