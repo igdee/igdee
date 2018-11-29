@@ -140,7 +140,8 @@ div.form button {
 button:hover { background: rgba(0,0,0,0.7); }
 button:active { background: rgba(0,0,0,1); }
 
-::-webkit-input-placeholder { color: rgba(255,255,255,0.2); font-weight: 200; letter-spacing: 4px; }
+:-webkit-autofill, 
+::-webkit-input-placeholder,
 :-ms-input-placeholder { color: rgba(255,255,255,0.2); font-weight: 200; letter-spacing: 4px; }
 
 .lang {
