@@ -10,7 +10,7 @@ header {
 }
 
 
-.logo { font-size: 72pt; padding: 0; margin-top: 30px; }
+.logo > i { font-size: 128pt; padding: 0; margin-top: 30px; }
 
 header nav { -ms-flex-direction: row; -webkit-flex-direction: row; flex-direction: row; margin: 10px 0; }
 
