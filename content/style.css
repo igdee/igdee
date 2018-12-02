@@ -154,8 +154,6 @@ button:active { background: rgba(0,0,0,1); }
     position:relative;
     min-width:28pt;
     text-align:center;
-    line-height:28pt;
-    
 }
 
 .lang i {
