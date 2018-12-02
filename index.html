@@ -1,13 +1,12 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html>
 <head>
     <meta name="google-site-verification" content="V3nMXlubxAl6T9rS9gbX_zFqyic-DOCnFJtxjHs3N5Y" />
     <meta name="yandex-verification" content="3007cc3757c22634" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="content-language" content="en">
     <meta name="viewport" content="width=device-width, inital-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
-    <meta name="keywords" content="bodrum, hatay, antakya, web design, web development, web tasarım, website tasarım, mobile applications, mobil uygulama geliştirme">
+    <meta name="keywords" content="bodrum, hatay, antakya, web design, web development, web tasarım, website tasarım, android ugulama, ios uygulama, geliştirme, mobile applications, mobil uygulama geliştirme">
     <meta name="description" content="Desktop, Mobile, Web Design and Development, Brand and Corporate Identity Design, Social Media Consultancy and Advertising Studio.">
 
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -18,12 +17,12 @@
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <title>Igdee | Design & Development Lab</title>
 
-    <link rel="icon" type="image/ico" href="/content/images/favicon.ico"></link>
-    <link rel="stylesheet" type="text/css" href="/content/style.css"></style>
-    <link rel="stylesheet" type="text/css" href="/content/icons.css"></style>
-    <link rel="stylesheet" media="screen and (max-width: 840px)" href="/content/style.mobile.css"></style>
+    <link rel="icon" type="image/ico" href="content/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="content/style.css" />
+    <link rel="stylesheet" type="text/css" href="content/icons.css" />
+    <link rel="stylesheet" media="screen and (max-width: 840px)" href="content/style.mobile.css" />
     
-    <script language="javascript" src="/content/jquery.min.js"></script>
+    <script language="javascript" src="content/jquery.min.js"></script>
     
     <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
     <script type="text/javascript">
@@ -41,58 +40,140 @@
       gtag('js', new Date());
       gtag('config', 'UA-77233022-3');
     </script>
+
+    <style>
+
+        body[lang="en"] [lang="tr"] { display: none; }
+
+        body[lang="tr"] [lang="en"] { display: none; }
+
+        .info {
+            text-align: center;
+            margin: 1em;
+            font-size: 28pt;
+            font-weight: 100;
+        }
+
+            .info > strong {
+                font-size: 48pt;
+                font-weight: 100;
+            }
+
+    </style>
+
+    <script>
+
+        var langs = ['en', 'tr'];
+
+        const getNavigatorLanguage = () => {
+            if (navigator.languages && navigator.languages.length) {
+                return navigator.languages[0];
+            } else {
+                return navigator.userLanguage || navigator.language || navigator.browserLanguage || 'en';
+            }
+        }
+
+        function cookie(e, v) {
+            if (v != null) document.cookie = e + '=' + v;
+            var re = new RegExp(e + "=([^;]+)");
+            var value = re.exec(document.cookie);
+            return (value != null) ? unescape(value[1]) : null;
+        }
+
+        function lang(e) {
+            var n = getNavigatorLanguage(), l = (e  || n), lng = langs.indexOf(l) > -1 ? l : langs[0];
+            $('body').attr('lang', lng);
+        }
+
+        $(document).ready(function () {
+            lang();
+        });
+
+    </script>
   
 </head>
-<body>
+<body lang="en">
+
     <header>
+        
         <div class="logo">
             <i class="dee-igdee"></i>
             <h1>igdee.lab<strong>design & development</strong></h1>
         </div>
+
         <nav>
-            <a name="projects" class="on" href="#projects"><i class="dee-task"></i><span>PROJECTS</span></a>
-            <a name="services" href="#services"><i class="dee-online"></i><span>SERVICES</span></a>
-            <a name="contact" href="#contact"><i class="dee-chat"></i><span>CONTACT</span></a>
+		
+            <a name="projects" class="on" href="#projects"><i class="dee-task"></i>
+		        <span lang="en">PROJECTS</span>
+		        <span lang="tr">PROJELER</span>
+	        </a>
+		
+            <a name="services" href="#services"><i class="dee-online"></i>
+		        <span lang="en">SERVICES</span>
+		        <span lang="tr">HIZMETLER</span>
+	        </a>
+
+            <a name="contact" href="#contact"><i class="dee-chat"></i>
+		        <span lang="en">CONTACT</span>
+		        <span lang="tr">İLETİŞİM</span>
+	        </a>
+        
         </nav>
 
         <div>
             <a href="http://facebook.com/igdeecom" class="dee-facebook-circle"></a>
             <a href="http://twitter.com/igdeecom" class="dee-twitter-circle"></a>
             <a href="https://www.linkedin.com/company/igdee" class="dee-linkedin-circle"></a>
+            <a href="javascript:lang('en')" lang="tr" class="lang"><i class="dee-circle"></i>EN</a>
+            <a href="javascript:lang('tr')" lang="en" class="lang"><i class="dee-circle"></i>TR</a>
         </div>
+
     </header>
 
     <content>
-        <h1 id="projects">LATEST PROJECTS</h1>
-        <section class="projects">
 
-			<div class="full" itemscope itemtype="http://schema.org/WebPage">
-                <a itemprop="url" href="https://goo.gl/e4uy14" target="_blank"><img itemprop="image" src="/content/images/tetra_prime_ls.jpg" alt="Tetra Prime - Tetris & Puzzle - Mobile Game - Android" /></a>
+        <p lang="en" class="info">
+            <strong>We are</strong><br /> a 
+            web & app development team that turns your ideas into a new driving force of your business.
+            We are not a company. We're just a team of passionate developers.
+            We capture, produce and implement the latest technologies.
+        </p>
+
+        <p lang="tr" class="info">
+            <strong>Biz</strong><br /> 
+            Fikirlerinizi işinizin yeni bir itici gücü haline getiren yazılım geliştirme ekibiyiz. 
+            Biz bir şirket değiliz. Biz sadece tutkulu geliştiricilerden oluşan bir takımız. 
+            En yeni teknolojileri yakalarız, üretir ve uygularız.
+        </p>
+
+        <h1 id="projects">
+            <span lang="en">LATEST PROJECTS</span>
+            <span lang="tr">PROJELER</span>
+        </h1>
+
+        <section class="projects">
+            <div class="full" itemscope itemtype="http://schema.org/WebPage">
+                <a itemprop="url" href="https://goo.gl/e4uy14" target="_blank"><img itemprop="image" src="content/images/tetra_prime_ls.jpg" alt="Tetra Prime - Tetris & Puzzle - Mobile Game - Android" /></a>
                 <span itemprop="name"><b>TETRA PRIME</b><em itemprop="category">TETRIS GAME</em><i itemprop="additionalType">ANDROID GAME</i></span>
             </div>
-
-			<div class="full" itemscope itemtype="http://schema.org/WebPage">
-                <a itemprop="url" href="https://goo.gl/bwwIoo" target="_blank"><img itemprop="image" src="/content/images/bangy_birds_ls.jpg" alt="Bangy Birds - Match 3 - Mobile Game - Android" /></a>
+            <div class="full" itemscope itemtype="http://schema.org/WebPage">
+                <a itemprop="url" href="https://goo.gl/bwwIoo" target="_blank"><img itemprop="image" src="content/images/bangy_birds_ls.jpg" alt="Bangy Birds - Match 3 - Mobile Game - Android" /></a>
                 <span itemprop="name"><b>BANGY BIRDS</b><em itemprop="category">MATCH 3 GAME</em><i itemprop="additionalType">ANDROID GAME</i></span>
             </div>
-
-
             <div itemscope itemtype="http://schema.org/WebPage">
-                <a itemprop="url" href="http://www.bdrmgroup.com" target="_blank"><img itemprop="image" src="/content/images/www.bdrmgroup.com.png" alt="BdrmGroup.com - Website - Tourism Services" /></a>
+                <a itemprop="url" href="http://www.bdrmgroup.com" target="_blank"><img itemprop="image" src="content/images/www.bdrmgroup.com.png" alt="BdrmGroup.com - Website - Tourism Services" /></a>
                 <span itemprop="name"><b>BDRM GROUP</b><em itemprop="category">TOURISM SERVICE</em><i itemprop="additionalType">WEB DESIGN / DEVELOPMENT</i></span>
             </div>
-
-            <div  itemscope itemtype="http://schema.org/WebPage">
-                <a itemprop="url" href="http://www.tuseta.com" target="_blank"><img itemprop="image" src="/content/images/www.tuseta.com.png" alt="Tuseta.com - Website - Vacation Booking Service" /></a>
+            <div itemscope itemtype="http://schema.org/WebPage">
+                <a itemprop="url" href="http://www.tuseta.com" target="_blank"><img itemprop="image" src="content/images/www.tuseta.com.png" alt="Tuseta.com - Website - Vacation Booking Service" /></a>
                 <span itemprop="name"><b>TUSETA TRAVEL</b><em itemprop="category">VACATION & BOOKING SERVICE</em><i itemprop="additionalType">WEB DESIGN / DEVELOPMENT</i></span>
             </div>
-
         </section>
-
-        <h1 id="services">WHAT WE DO?</h1>
-
+        <h1 id="services">
+            <span lang="en">WHAT WE DO?</span>
+            <span lang="tr">NE YAPARIZ?</span>
+        </h1>
         <section class="services" style="font-size:200%;margin-bottom:100px">
-
             <div class="pack" itemscope itemtype="http://schema.org/Offer">
                 <ul>
                     <li itemprop="jobTitle">WEB</li>
@@ -101,23 +182,24 @@
                     <li itemprop="description">WEB API & SERVICES</li>
                     <li itemprop="description">PROJECT MANAGEMENT</li>
                     <li itemprop="description">UX/UI DESIGN</li>
-					<li itemprop="description"></li>
+                    <li itemprop="description"></li>
                 </ul>
-
                 <ul itemscope itemtype="http://schema.org/Offer">
                     <li itemprop="jobTitle">MOBILE</li>
                     <li itemprop="description">ANDROID DEVELOPMENT</li>
                     <li itemprop="description">IOS DEVELOPMENT</li>
                     <li itemprop="description">GAME DEVELOPMENT</li>
                     <li itemprop="description">APP OPTIMIZING</li>
-					<li itemprop="description">UX/UI DESIGN</li>
-					<li itemprop="description"></li>
+                    <li itemprop="description">UX/UI DESIGN</li>
+                    <li itemprop="description"></li>
                 </ul>
-
             </div>
-			
+
         </section>
-        <h1 id="contact">MORE? CONTACT US</h1>
+        <h1 id="contact">
+            <span lang="en">CONTACT US</span>
+            <span lang="tr">BİZE ULAŞIN</span>
+        </h1>
         <section class="contact">
             <div class="form">
                 <input name="name" type="text" placeholder="Full Name..." />
