@@ -41,8 +41,8 @@ header > nav a:hover,
 header > nav a.on { color: #077;  }
 header > nav a i { font-size: 32pt; }
 
-header > div { margin: 10px; margin-top: auto; display: flex; font-size: 32pt; justify-content: center; }
-header > div > a { margin: 5px; color: #444; }
+header > div { margin: 10px; margin-top: auto; display: flex; font-size: 28pt; justify-content: center; }
+header > div > a { margin: 3px; color: #444; }
 header > div > a:hover { color: #fff; }
 
 content {
@@ -152,14 +152,14 @@ button:active { background: rgba(0,0,0,1); }
     justify-content:center;
     align-items:center;
     position:relative;
-    min-width:32pt;
+    min-width:28pt;
     text-align:center;
-    line-height:32pt;
+    line-height:28pt;
     
 }
 
 .lang i {
-    font-size:32pt;
+    font-size:28pt;
     position:absolute;
     left:0; top:0;
     right:0;
