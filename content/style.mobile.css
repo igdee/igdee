@@ -17,13 +17,16 @@ header nav { -ms-flex-direction: row; -webkit-flex-direction: row; flex-directio
 content { width: 100%; position:static; overflow:inherit; }
 
 content h1 { font-size: 32pt; letter-spacing: 0; color: #777; margin: 20px 0; }
-section.projects > div.full,
+
 section.projects > div {
     width: 100%;
-    padding: 5px;
-    margin: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
 }
 
 section.projects > div img { width: 100%; border: 8px solid rgba(255,255,255,0.15); -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
