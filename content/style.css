@@ -65,9 +65,9 @@ section {
 
     section.projects > div {
         display: flex;
-        -ms-flex-direction: column;
-        -webkit-flex-direction: column;
-        flex-direction: column;
+        -ms-flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-direction: row;
         width: 50%;
         padding: 10px;
         margin: 10px;
