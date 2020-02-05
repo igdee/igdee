@@ -23,16 +23,9 @@
     <link rel="stylesheet" media="screen and (max-width: 840px)" href="/content/style.mobile.css" />
     
     <script language="javascript" src="/content/jquery.min.js"></script>
-    
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
-    <script type="text/javascript">
-     (function(){
-        emailjs.init("user_E7xyyYLk84PN3V9z1cTU6");
-     })();
-    </script>
-  
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
-	  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77233022-3"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77233022-3"></script>
 
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -60,39 +53,8 @@
             }
 
     </style>
-
-    <script>
-
-        var langs = ['en', 'tr'];
-
-        const getNavigatorLanguage = () => {
-            if (navigator.languages && navigator.languages.length) {
-                return navigator.languages[0];
-            } else {
-                return navigator.userLanguage || navigator.language || navigator.browserLanguage || 'en';
-            }
-        }
-
-        function cookie(e, v) {
-            if (v != null) document.cookie = e + '=' + v;
-            var re = new RegExp(e + "=([^;]+)");
-            var value = re.exec(document.cookie);
-            return (value != null) ? unescape(value[1]) : null;
-        }
-
-        function lang(e) {
-            var n = getNavigatorLanguage(), l = (e  || n), lng = langs.indexOf(l) > -1 ? l : langs[0];
-            $('body').attr('lang', lng);
-        }
-
-        $(document).ready(function () {
-            lang();
-        });
-
-    </script>
-  
 </head>
-<body lang="en">
+<body>
 
     <header>
         
@@ -101,27 +63,11 @@
             <h1>igdee.lab<strong>design & development</strong></h1>
         </div>
 
-        <nav>
-		
-            <a name="projects" class="on" href="#projects"><i class="dee-task"></i>
-		        <span lang="en">PROJECTS</span>
-		        <span lang="tr">PROJELER</span>
-	        </a>
-		
-            <a name="contact" href="#contact"><i class="dee-chat"></i>
-		        <span lang="en">CONTACT</span>
-		        <span lang="tr">İLETİŞİM</span>
-	        </a>
-        
-        </nav>
-
         <div>
             <a href="http://facebook.com/igdeecom" class="dee-facebook-circle"></a>
             <a href="http://twitter.com/igdeecom" class="dee-twitter-circle"></a>
 	    <a href="http://instagram.com/igdeecom" class="dee-instagram-circle"></a>
             <a href="https://www.linkedin.com/company/igdee" class="dee-linkedin-circle"></a>
-            <a href="javascript:lang('en')" lang="tr" class="lang"><i class="dee-circle"></i>EN</a>
-            <a href="javascript:lang('tr')" lang="en" class="lang"><i class="dee-circle"></i>TR</a>
         </div>
 
     </header>
@@ -129,7 +75,12 @@
     <content>
 
          <section class="projects">
-
+		 
+            <div itemscope itemtype="http://schema.org/WebPage">
+                <span itemprop="name"><b><a itemprop="url" href="https://play.google.com/store/apps/details?id=com.igdee.phu" target="_blank">PHU: Photo Puzzle</a></b><em itemprop="category">CASUAL PUZZLE GAME</em><i itemprop="additionalType">ANDROID GAME</i></span>
+                <iframe width="480" height="270" src="https://youtu.be/SvH5tLONVg4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+		 
             <div itemscope itemtype="http://schema.org/WebPage">
                 <span itemprop="name"><b><a itemprop="url" href="https://play.google.com/store/apps/details?id=com.igdee.neki" target="_blank">NEKI - Word Asistant</a></b><em itemprop="category">DICTIONARY & REFERENCE</em><i itemprop="additionalType">ANDROID APPLICATION</i></span>
                 <iframe width="480" height="270" src="https://www.youtube.com/embed/3FeRG9wgUew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -152,85 +103,7 @@
 		 
         </section>
       
-        <section class="contact">
-            <div class="form">
-                <input name="name" type="text" placeholder="Full Name..." />
-                <input name="phone" type="tel" placeholder="Phone Number..." />
-                <input name="email" type="email" placeholder="Email Address... " />
-                <textarea style="min-height:180px" name="message" placeholder="Messege..."></textarea>
-                <button onclick="contact(this)">SUBMIT</button>
-            </div>
-        </section>
     </content>
-
-    <script>
-
-        var r = window.location.hash;
-
-        console.log(r);
-
-        $("nav > a").click(function () {
-            if (!$(this).hasClass('on')) {
-                var pos = $('body').scrollTop();
-                pos = pos == 0 ? $('content').scrollTop() : pos;
-                var target = $(this).attr("name");
-                $("nav > a").removeClass("on");
-                $(this).addClass("on");
-                $('body, content').animate({
-                    scrollTop: $('#' + target).offset().top + pos
-                }, 300);
-            }
-        });
-
-        if(r) $('a[href="' + r + '"]').click();
-
-        var sending = false;
-        function contact(button) {
-            if (sending) return; sending = true;
-            $(button).text('WAIT!');
-            var name = $('[name="name"]').val();
-            var phone = $('[name="phone"]').val();
-            var email = $('[name="email"]').val();
-            var message = $('[name="message"]').val();
-            
-            var template_params = {
-              	"reply_to": email,
-              	"from_name": name,
-              	"message_html": message,
-		"phone":phone	    
-            }
-
-          var service_id = "default_service";
-          var template_id = "template_R8LWfDB7";
-          emailjs.send(service_id, template_id, template_params)
-          .then(function(){
-
-		$('section.contact').addClass("success");
-                    
-		setTimeout(function () { $('section.contact').removeClass("success"); }, 2000);
-                    
-		$('.err').removeClass('err');
-
-                $('[name="name"]').val('');
-                $('[name="phone"]').val('');
-                $('[name="email"]').val('');
-                $('[name="message"]').val('');
-                    
-                $(button).text('SUBMIT');
-		  
-                sending = false;
-		  
-          }, function(err){
-                    $('section.contact').addClass('error');
-                    setTimeout(function () {
-                        $('section.contact').removeClass('error');
-                    }, 2000);
-                    $(button).text('SUBMIT');
-                    sending = false;
-          });
-        }
-
-    </script>
 
 </body>
 </html>
