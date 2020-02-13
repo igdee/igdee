@@ -1,0 +1,229 @@
+<html>
+<head>
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
+
+        
+        :root {
+
+            --first-color:  rgba(150,0,0,1);
+            --first-color-alpha: rgba(150, 0, 0, 0.3);
+
+            --second-color:  rgba(0, 0, 150, 1);
+            --second-color-alpha: rgba(0, 0, 150, 0.3);
+            
+            --light-color:  rgba(255, 255, 255, 1);
+            --light-color-alpha: rgba(255, 255, 255, 0.8);
+           
+            --dark-color:  rgba(0, 0, 0, 1);
+            --dark-color-alpha: rgba(0, 0, 0, 0.8);
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Roboto, Helvetica, Arial;
+        }
+
+        content {
+            height: 100%;
+            align-items: stretch;
+            display: flex;
+            flex-direction: row;
+            border: 0.6em solid var(--dark-color);
+            box-sizing: border-box;
+        }
+
+        side {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+          align-items: center;
+            justify-content: ;
+            flex: 1; 
+           
+        }
+
+            side:first-child {
+                background: var(--first-color);
+                clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+                 margin-right: -3%;
+            }
+
+            side:last-child {
+                background: var(--second-color);
+                clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+                 margin-left: -3%;
+            }
+
+            side img {
+                flex-shrink:0;
+                min-width:100%;
+                min-height:100%;
+                -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+            }
+
+        aside > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+            aside span {
+                color: var(--light-color);
+                background: var(--light-color-alpha);
+                text-align: center;
+                font-size: 2vw;
+                margin: 0.1em;
+                padding: 3px 15px;
+                clip-path: polygon(0 50%, 5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%);
+                width: 100%;
+            }
+
+            aside strong {
+                text-align: center;
+                font-family: Impact;
+                line-height: 0.9em;
+                font-size: 7vw;
+                color: var(--light-color-alpha);
+                font-weight: normal;
+            }
+
+        aside {
+            display: flex;
+            position: fixed;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            bottom: 5vh;
+            left: 0;
+            width: 100%;
+            z-index: 3;
+
+        }
+
+        header {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 2;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+            header h1 {
+                clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+                background: linear-gradient(0deg, var(--dark-color-alpha), var(--dark-color) 100%);
+                color: var(--light-color);
+                font-weight: normal;
+                font-family: Impact;
+                font-size: 3vw;
+                padding: 0.3em 9vw;
+                margin: 0;
+            }
+
+            header small {
+                display:block;
+                text-align:center;
+                font-size:2vw;
+                color: var(--light-color-alpha);
+                font-family:Roboto;
+            }
+
+        footer {
+            width: 100%;
+            position: absolute;
+            bottom: 0.6em;
+            z-index: 2;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+            footer div {
+                display: flex;
+                clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
+                background: linear-gradient(0deg, var(--dark-color) 30%, var(--dark-color-alpha) 100%);
+                color: var(--light-color);
+                font-weight: 900;
+                font-family: Roboto;
+                font-size: 10vh;
+                line-height: 10vh;
+                padding: 1vh 8vh;
+                margin: 0;
+            }
+
+            footer > div {
+                padding: 2vh;
+            } 
+            
+        content > side > span {
+            font-weight: bolder;
+            position: absolute;
+            font-size: 10vw;
+            transform:rotate(-10deg);
+            color: rgba(255,255,255,0.2) !important;
+            -webkit-text-stroke: 2px rgba(0,0,0,0.5);
+            z-index:3; 
+            font-family:Impact;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <aside>
+
+        <div>
+            <strong></strong>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <div>
+            <strong></strong>
+            <span></span>
+            <span></span>
+        </div>
+
+    </aside>
+
+    <header>
+        <h1>
+            <span></span>
+            <small></small>
+        </h1>
+    </header>
+
+    <content>
+        <side>
+            <span></span>
+            <img />
+        </side>
+        <side>
+            <span></span>
+            <img />
+        </side>
+    </content>
+
+    <footer>
+        <div>
+            <div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
