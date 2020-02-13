@@ -1,0 +1,195 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "ÖDÜL OYUNU"
+    },
+    {
+      "id": 2,
+      "name": "DOKUNULMAZLIK OYUNU"
+    },
+    {
+      "id": 3,
+      "name": "İLETİŞİM OYUNU"
+    },
+    {
+      "id": 4,
+      "name": "SEMBOL OYUNU"
+    }
+  ],
+
+  "teams": {
+    "red": {
+      "name": "ÜNLÜLER",
+      "color": "red"
+    },
+    "blue": {
+      "name": "GÖNÜLLÜLER",
+      "color": "blue"
+    }
+  },
+
+  "players": {
+
+    "baris": {
+      "team": "red",
+      "name": "BARIŞ",
+      "fullname": "Barış Murat Yağcı",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-217192717525e415c6a29d70.jpg"
+    },
+
+    "mert": {
+      "team": "red",
+      "name": "MERT",
+      "fullname": "Mert Öcal",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-28006762975e415ce801b56.jpg"
+    },
+
+    "saziye": {
+      "team": "red",
+      "name": "ŞAZİYE",
+      "fullname": "Şaziye İvegin Üner",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-211075262975e415d5faffd4.jpg"
+    },
+
+    "ugur": {
+      "team": "red",
+      "name": "UĞUR",
+      "fullname": "Uğur Pektaş",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-210184830025e415e0fbd7a9.jpg"
+    },
+
+    "sercan": {
+      "team": "red",
+      "name": "SERCAN",
+      "fullname": "Sercan Yıldırım",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-120965366665e415e91a48a6.jpg"
+    },
+
+    "derya": {
+      "team": "red",
+      "name": "DERYA",
+      "fullname": "Derya Can Göçen",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-2954031285e415f25b5674.jpg"
+    },
+
+    "parviz": {
+      "team": "red",
+      "name": "PARVİZ",
+      "fullname": "Parviz Abdullayev",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-217529022715e415f9337cfc.jpg"
+    },
+    "aycan": {
+      "team": "red",
+      "name": "AYCAN",
+      "fullname": "Aycan Yanaç",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-217937980265e416017de67b.jpg"
+    },
+    "elif": {
+      "team": "red",
+      "name": "ELİF",
+      "fullname": "Elif Yıldırım Gören",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-25566940455e4160614f801.jpg"
+    },
+    "tugba": {
+      "team": "red",
+      "name": "TUĞBA",
+      "fullname": "Tuğba Melis Türk",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-213716903735e4160d70d31c.jpg"
+    },
+    "ersin": {
+      "team": "red",
+      "name": "ERSİN",
+      "fullname": "Ersin Korkut",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-220413600605e41611eed6ac.jpg"
+    },
+    "yasin": {
+      "team": "blue",
+      "name": "YASİN",
+      "fullname": "Yasin Obuz",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-26141504375e4253c77f05d.jpg"
+    },
+    "cemal": {
+      "team": "blue",
+      "name": "CEMAL",
+      "fullname": "Cemal Can Canseven",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-221188837105e4251b3910ae.jpg"
+    },
+    "ceyhun": {
+      "team": "blue",
+      "name": "CEYHUN",
+      "fullname": "Ceyhun Uzun",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-212344098385e42529fd5a18.jpg"
+    },
+    "evrim": {
+      "team": "blue",
+      "name": "EVRİM",
+      "fullname": "Evrim Keklik",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-214003247955e42512027fde.jpg"
+    },
+    "fatma": {
+      "team": "blue",
+      "name": "FATMA",
+      "fullname": "Fatma Günaydın",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-210173253215e424f6cc98ff.jpg"
+    },
+    "makbule": {
+      "team": "blue",
+      "name": "MAKBULE",
+      "fullname": "Makbule Günaydın",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-211428494385e42522a75218.jpg"
+    },
+    "meryem": {
+      "team": "blue",
+      "name": "MERYEM",
+      "fullname": "Meryem Kasap",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-213181317055e42506260e8b.jpg"
+    },
+    "nisa": {
+      "team": "blue",
+      "name": "NİSA",
+      "fullname": "Nisa Bölükbaşı",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-2325086495e4253546a432.jpg"
+    },
+    "sadik": {
+      "team": "blue",
+      "name": "SADIK",
+      "fullname": "Sadık Ardahan Uzkanbaş",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-28085327155e4250b49bc5c.jpg"
+    },
+    "tayfun": {
+      "team": "blue",
+      "name": "TAYFUN",
+      "fullname": "Tayfun Erdoğan",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-26724736675e42530455cc6.jpg"
+    },
+    "burak": {
+      "team": "blue",
+      "name": "BURAK",
+      "fullname": "Burak Yurdugör",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-211983525415e424fd483689.jpg"
+    }
+  }
+}
