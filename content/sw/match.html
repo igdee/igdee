@@ -10,10 +10,14 @@
         
         @font-face {
             font-family: Roboto;
-            src: url("file:///android_asset/work-sans.ttf")
+            src: url("file:///android_asset/roboto.ttf")
         }
         
-
+        @font-face {
+            font-family: Roboto-Cn;
+            src: url("file:///android_asset/roboto_cn.ttf")
+        }
+        
         :root {
 
             --first-color:  rgba(150,0,0,1);
@@ -34,7 +38,7 @@
             height: 100%;
             margin: 0;
             padding: 0;
-            font-family: Roboto, Helvetica, Arial;
+            font-family: Roboto, 'sans-serif', Arial;
         }
 
         content {
@@ -133,6 +137,7 @@
                 color: var(--light-color);
                 font-weight: normal;
                 font-family: Impact;
+                text-align: center;
                 font-size: 3vw;
                 padding: 0.3em 9vw;
                 margin: 0;
@@ -141,9 +146,10 @@
             header small {
                 display:block;
                 text-align:center;
+                font-family:Condensed;
                 font-size:2vw;
                 color: var(--light-color-alpha);
-                font-family:Roboto;
+                font-family:Roboto-Cn;
             }
 
         footer {
