@@ -2,34 +2,31 @@
 <head>
 
     <style>
-        
+
+
         @font-face {
             font-family: Impact;
             src: url("file:///android_asset/impact.ttf")
         }
-        
+
         @font-face {
             font-family: Roboto;
             src: url("file:///android_asset/roboto.ttf")
         }
-        
+
         @font-face {
             font-family: Roboto-Cn;
             src: url("file:///android_asset/roboto_cn.ttf")
         }
-        
+
         :root {
-
-            --first-color:  rgba(150,0,0,1);
+            --first-color: rgba(150,0,0,1);
             --first-color-alpha: rgba(150, 0, 0, 0.3);
-
-            --second-color:  rgba(0, 0, 150, 1);
+            --second-color: rgba(0, 0, 150, 1);
             --second-color-alpha: rgba(0, 0, 150, 0.3);
-            
-            --light-color:  rgba(255, 255, 255, 1);
+            --light-color: rgba(255, 255, 255, 1);
             --light-color-alpha: rgba(255, 255, 255, 0.8);
-           
-            --dark-color:  rgba(0, 0, 0, 1);
+            --dark-color: rgba(0, 0, 0, 1);
             --dark-color-alpha: rgba(0, 0, 0, 0.8);
         }
 
@@ -39,10 +36,14 @@
             margin: 0;
             padding: 0;
             font-family: Roboto, 'sans-serif', Arial;
+            display:flex;
+            align-items: center;
+            justify-content: center;
         }
 
         content {
             height: 100%;
+            width:100%;
             align-items: stretch;
             display: flex;
             flex-direction: row;
@@ -50,79 +51,67 @@
             box-sizing: border-box;
         }
 
-        side {
+        content > aside {
             display: flex;
             flex-direction: row;
             overflow: hidden;
             align-items: center;
             justify-content: center;
-            flex: 1; 
-           
+            flex: 1;
         }
 
-            side:first-child {
+             content > aside:first-child {
                 background: var(--first-color);
                 clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
-                 margin-right: -3%;
+                margin-right: -3%;
             }
 
-            side:last-child {
+             content > aside:last-child {
                 background: var(--second-color);
                 clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
-                 margin-left: -3%;
+                margin-left: -3%;
             }
 
-            side img {
-                object-fit:cover;
-                object-position:top;
-                max-width:100%;
-                max-height:100%;
-                align-self:start;
+             content > aside img {
+                object-fit: cover;
+                object-position: top;
+                max-width: 100%;
+                max-height: 100%;
+                align-self: start;
                 flex: 1;
-                overflow:hidden;
+                overflow: hidden;
                 -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
             }
 
-        aside > div {
+        footer > div {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            flex:1;
+            padding:1em;
+            flex: 1;
         }
 
-            aside span {
-                color: var(--light-color);
-                background: var(--light-color-alpha);
-                text-align: center;
-                font-size: 2vw;
-                margin: 0.1em;
-                padding: 3px 15px;
-                clip-path: polygon(0 50%, 5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%);
-                min-width: 20vw;
-            }
-
-            aside strong {
-                text-align: center;
-                font-family: Impact;
-                line-height: 0.9em;
-                font-size: 5vw;
-                color: var(--light-color-alpha);
-                font-weight: normal;
-            }
-
-        aside {
-            display: flex;
-            position: fixed;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-around;
-            bottom: 10vh;
-            left: 0;
-            width: 100%;
-            z-index: 3;
-
+        footer div small {
+            color: var(--dark-color-alpha);
+            background: var(--light-color-alpha);
+            text-align: center;
+            font-size: 2vw;
+            margin: 0.1em;
+            padding: 3px 15px;
+            clip-path: polygon(0 50%, 5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%);
+            min-width: 20vw;
         }
+
+        footer strong {
+            text-align: center;
+            font-family: Impact;
+            line-height: 0.9em;
+            font-size: 4vw;
+            color: var(--light-color-alpha);
+            font-weight: lighter;
+        }
+
 
         header {
             width: 100%;
@@ -148,19 +137,19 @@
             }
 
             header small {
-                display:block;
-                text-align:center;
-                font-family:Condensed;
-                font-size:2vw;
+                display: block;
+                text-align: center;
+                font-family: Condensed;
+                font-size: 2vw;
                 color: var(--light-color-alpha);
-                font-family:Roboto-Cn;
-                opacity:0.6;
+                font-family: Roboto-Cn;
+                opacity: 0.6;
             }
 
         footer {
             width: 100%;
             position: absolute;
-            bottom: 0.6em;
+            bottom:0.6em;
             z-index: 5;
             display: flex;
             align-content: center;
@@ -168,12 +157,11 @@
             justify-content: center;
         }
 
-            footer div {
+            footer span {
                 display: flex;
                 clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
                 background: linear-gradient(0deg, var(--dark-color) 30%, var(--dark-color-alpha) 100%);
                 color: var(--light-color);
-                font-weight: 900;
                 font-family: Impact;
                 font-size: 10vh;
                 line-height: 10vh;
@@ -181,45 +169,36 @@
                 margin: 0;
             }
 
-            footer > div {
+            footer > span {
                 padding: 2vh;
-            } 
-            
+                align-self:flex-end;
+            }
+
         em {
             font-weight: bolder;
-            position: absolute;
-            font-size: 14vh;
+            position:absolute;
+            margin-top:15vh;
+            font-size: 12vh;
             transform: rotate(-10deg);
             color: rgba(255,255,0, 0.5) !important;
-            -webkit-text-stroke: 2px rgba(0,0,0,0.5);
+            text-shadow:0 0 10px #000;
             z-index: 3;
-            margin-top:-20vh;
             font-family: Impact;
         }
 
+        body > em {
+           color: var(--light-color-alpha) !important;
+           transform:rotate(0);
+           text-shadow:0 0 10px #000;
+           font-size: 18vh;
+           margin:0;
+           opacity:0.5;
+        }
 
     </style>
 </head>
 <body>
 
-    <aside>
-
-        <div>
-            <em></em>
-            <strong></strong>
-            <!--<span></span>-->
-            <!--<span></span>-->
-        </div>
-
-
-        <div>
-            <em></em>
-            <strong></strong>
-            <!--<span></span>-->
-            <!--<span></span>-->
-        </div>
-
-    </aside>
 
     <header>
         <h1>
@@ -229,22 +208,32 @@
     </header>
 
     <content>
-        <side>
-            <img />
-        </side>
-        <side>
-            <img />
-        </side>
+
+        <aside>
+        </aside>
+
+        <aside>
+        </aside>
+
     </content>
 
     <footer>
+
         <div>
-            <div>
-            </div>
+            <strong></strong>
         </div>
+
+        <span>
+            <span></span>
+        </span>
+
+        <div>
+            <strong></strong>
+        </div>
+
     </footer>
 
-
+    <em></em>
 
 </body>
 </html>
