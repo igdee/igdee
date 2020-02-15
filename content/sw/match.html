@@ -15,8 +15,13 @@
         }
 
         @font-face {
-            font-family: Roboto-Cn;
-            src: url("file:///android_asset/roboto_cn.ttf")
+            font-family: Oswald;
+            src: url("file:///android_asset/oswald.ttf")
+        }
+        
+        @font-face {
+            font-family: WorkSans;
+            src: url("file:///android_asset/oswald.ttf")
         }
 
         :root {
@@ -35,7 +40,7 @@
             height: 100%;
             margin: 0;
             padding: 0;
-            font-family: Roboto, 'sans-serif', Arial;
+            font-family: Roboto, WorkSans, 'sans-serif';
             display:flex;
             align-items: center;
             justify-content: center;
@@ -111,7 +116,33 @@
             color: var(--light-color-alpha);
             font-weight: lighter;
         }
+        
+        
+        footer  h1,
+        footer  h2,
+        footer  h3 {
+            padding:0;
+            margin:0;
+            text-align: center;
+            font-family: Impact;
+            color: var(--light-color-alpha);
+            font-weight: lighter;
+        }
 
+        footer h3 {
+            line-height: 0.9em;
+            font-size: 3vw;
+        }
+        
+        footer h2 {
+            line-height: 0.9em;
+            font-size: 5vw;
+        }
+              
+        footer h1 {
+            line-height: 0.9em;
+            font-size: 7vw;
+        }
 
         header {
             width: 100%;
@@ -139,7 +170,7 @@
             header small {
                 display: block;
                 text-align: center;
-                font-family: Condensed;
+                font-family: Oswald;
                 font-size: 2vw;
                 color: var(--light-color-alpha);
                 font-family: Roboto-Cn;
@@ -162,7 +193,7 @@
                 clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
                 background: linear-gradient(0deg, var(--dark-color) 30%, var(--dark-color-alpha) 100%);
                 color: var(--light-color);
-                font-family: Impact;
+                font-family: Oswald;
                 font-size: 10vh;
                 line-height: 10vh;
                 padding: 1vh 8vh;
@@ -220,7 +251,7 @@
     <footer>
 
         <div>
-            <strong></strong>
+            <h1></h1>
         </div>
 
         <span>
@@ -228,7 +259,7 @@
         </span>
 
         <div>
-            <strong></strong>
+            <h1></h1>
         </div>
 
     </footer>
