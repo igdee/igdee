@@ -56,7 +56,7 @@
             box-sizing: border-box;
         }
 
-        content > aside {
+        content > div {
             display: flex;
             flex-direction: row;
             overflow: hidden;
@@ -65,21 +65,21 @@
             flex: 1;
         }
 
-             content > aside:first-child {
+             content > div:first-child {
                 background: var(--first-color);
                 clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
                 margin-right: -3%;
                 z-index:1;
             }
 
-             content > aside:last-child {
+             content > div:last-child {
                 background: var(--second-color);
                 clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
                 margin-left: -3%;
                 z-index:0;
             }
 
-             content > aside img {
+             content > div > img {
                 object-fit: cover;
                 object-position: top;
                 max-width: 100%;
@@ -242,11 +242,11 @@
 
     <content>
 
-        <aside>
-        </aside>
+        <div>
+        </div>
 
-        <aside>
-        </aside>
+        <div>
+        </div>
 
     </content>
 
