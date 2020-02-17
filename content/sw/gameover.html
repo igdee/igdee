@@ -1,7 +1,7 @@
 <html>
 <head>
-
     <style>
+
 
 
 
@@ -57,7 +57,6 @@
             box-sizing: border-box;
             align-items: center;
             justify-content: center;
-       
         }
 
         footer > div {
@@ -134,8 +133,8 @@
                 font-weight: normal;
                 font-family: Impact;
                 text-align: center;
-                font-size: 4vw;
-                padding: 0.3em 9vw;
+                font-size: 3.5vh;
+                padding: 0.3vh 9vw;
                 margin: 0;
                 z-index: 1;
             }
@@ -143,8 +142,8 @@
             header small {
                 display: block;
                 text-align: center;
-                font-family: Oswald;
-                font-size: 2vw;
+                font-family: Roboto;
+                font-size: 2vh;
                 color: var(--light-color-alpha);
                 opacity: 0.6;
             }
@@ -166,14 +165,14 @@
                 background: linear-gradient(0deg, var(--dark-color) 30%, var(--dark-color-alpha) 100%);
                 color: var(--light-color);
                 font-family: Oswald;
-                font-size: 10vh;
-                line-height: 10vh;
-                padding: 1vh 8vh;
+                font-size: 4vh;
+                line-height: 4vh;
+                padding: 1vh 4vh;
                 margin: 0;
             }
 
             footer > span {
-                padding: 2vh;
+                padding: 1vh;
                 align-self: flex-end;
             }
 
@@ -201,25 +200,25 @@
 
         .first {
             background: var(--first-color);
-            color:var(--light-color);
+            color: var(--light-color);
         }
 
-        .first.rev {
-            color: var(--first-color);
-            background:var(--light-color-alpha);
-        }
+            .first.rev {
+                color: var(--first-color);
+                background: var(--light-color-alpha);
+            }
 
         .second {
             background: var(--second-color);
-            color:var(--light-color);
+            color: var(--light-color);
         }
 
-        .second.rev {
-            color: var(--second-color);
-            background:var(--light-color-alpha);
-        }
+            .second.rev {
+                color: var(--second-color);
+                background: var(--light-color-alpha);
+            }
 
-         .row {
+        .row {
             display: flex;
             flex-direction: row;
             font-size: 2vh;
@@ -230,7 +229,7 @@
         .table {
             display: flex;
             flex-direction: column;
-            min-width: 50vw;
+            min-width: 100vh;
         }
 
         .row > div {
@@ -248,19 +247,20 @@
             width: 1vw !important;
         }
 
-        .row:first-child div {
-             color: var(--light-color);
-             font-size:3vh; 
-             padding:0.5vh
+        .row.header div {
+            color: var(--light-color);
+            font-size: 1.6em;    
+            text-align:center!important;
+            padding: 0.5vh
         }
 
-        .left-col {
-            text-align:right;
+        .first {
+            text-align: right!important;
             color: var(--first-color);
         }
 
-        .right-col {
-            text-align:left;
+        .second {
+            text-align: left!important;
             color: var(--second-color);
         }
 
@@ -277,7 +277,6 @@
             opacity: 0.3;
             z-index: -1;
         }
-
     </style>
 </head>
 <body>
@@ -294,9 +293,9 @@
 
         <div class="table">
 
-            <div class="row">
-                <div class="first">ÜNLÜLR</div>
-                <div class="second">GÖNÜLLÜLER</div>
+            <div class="row header">
+                <div class="first"></div>
+                <div class="second"></div>
             </div>
 
             <div class="row">
@@ -305,7 +304,7 @@
                 <div class="second rev val">-</div>
                 <div class="second rev">-</div>
             </div>
-
+            
         </div>
 
     </content>
