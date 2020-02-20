@@ -229,7 +229,8 @@
         .table {
             display: flex;
             flex-direction: column;
-            min-width: 70vw;
+            max-width: 70vw;
+            width:100%;
         }
 
         .row > div {
@@ -274,12 +275,24 @@
             top: 0;
             right: 0;
             bottom: 0;
-            background: url(https://igdee.com/content/sw/bg.jpg);
+            background: url(bg.jpg);
             background-attachment: fixed;
             background-position: center;
             background-size: cover;
             opacity: 0.3;
             z-index: -1;
+        }
+                
+        .pattern {
+            position: fixed;
+            left: var(--border-size);
+            top: var(--border-size);
+            right: var(--border-size);
+            bottom: var(--border-size);
+            background: url(pat.jpg) no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.05;
+            z-index: 3;
         }
         
         hr {
@@ -300,8 +313,11 @@
         </h1>
     </header>
 
+    
     <content>
-
+        
+        <span class="pattern"></span>
+        
         <div class="table">
 
             <div class="row header">
