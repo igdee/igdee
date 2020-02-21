@@ -1,0 +1,218 @@
+<html>
+<head>
+
+    <style>
+
+
+
+        @font-face {
+            font-family: Impact;
+            src: url("file:///android_asset/impact.ttf")
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("file:///android_asset/roboto.ttf")
+        }
+
+        @font-face {
+            font-family: Oswald;
+            src: url("file:///android_asset/oswald.ttf")
+        }
+
+        @font-face {
+            font-family: WorkSans;
+            src: url("file:///android_asset/oswald.ttf")
+        }
+
+        :root {
+            --first-color: rgba(120,0,0,1);
+            --first-color-alpha: rgba(120, 0, 0, 0.3);
+            --second-color: rgba(0, 0, 120, 1);
+            --second-color-alpha: rgba(0, 0, 120, 0.3);
+            --light-color: rgba(255, 255, 255, 1);
+            --light-color-alpha: rgba(255, 255, 255, 0.8);
+            --light-color-alpha2: rgba(255, 255, 255, 0.5);
+            --dark-color: rgba(0, 0, 0, 1);
+            --dark-color-alpha: rgba(0, 0, 0, 0.8);
+            --border-size: 0.5vw;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+            font-family: Roboto, WorkSans, 'sans-serif';
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            flex-direction: row;
+            box-sizing: content-box;
+            background-color: var(--dark-color);
+        }
+
+        .content {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            flex-direction: row;
+            box-sizing: content-box;
+            border: var(--border-size) solid var(--dark-color);
+        }
+
+            .content > div {
+                display: flex;
+                flex-direction: row;
+                overflow: hidden;
+                align-items: center;
+                justify-content: center;
+                flex: 1;
+            }
+
+                .content > div.team0 {
+                    background-color: var(--first-color);
+                    z-index: 1;
+                }
+
+                .content > div.team1 {
+                    background-color: var(--second-color);
+                    z-index: 0;
+                }
+
+                .content > div > img {
+                    object-fit: cover;
+                    object-position: top;
+                    max-width: 100%;
+                    max-height: 100%;
+                    align-self: start;
+                    overflow: hidden;
+                    flex: 1;
+                    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+                }
+
+
+        .info {
+            font-family: Impact;
+            position: absolute;
+            color: var(--light-color-alpha);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 1em;
+            margin-top: 24vh;
+            z-index: 4;
+        }
+
+            .info > small {
+                display: flex;
+                font-size: 0.25em !important;
+                font-family: Oswald;
+            }
+
+
+                .info > small > i {
+                    border-radius: 0.2em;
+                    margin: 0.1em;
+                    background: var(--light-color-alpha2);
+                    color: var(--dark-color);
+                    text-align: center;
+                    padding: 0.2em;
+                    font-style: normal;
+                    min-width: 3em;
+                }
+
+
+
+        header {
+            display: block;
+            position: absolute;
+            z-index: 4;
+            top: 0;
+        }
+
+        footer {
+            display: block;
+            position: absolute;
+            z-index: 4;
+            bottom: 0;
+        }
+
+            header > div,
+            footer > div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: var(--light-color);
+                font-family: Oswald;
+                line-height: 6vh;
+                flex-direction: column;
+                display: flex;
+                margin: 0;
+            }
+
+        header > div {
+            clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+            background: linear-gradient(0deg, var(--dark-color-alpha), var(--dark-color) 100%);
+            font-size: 5vh;
+            padding: 1vh 2em;
+        }
+
+        footer > div {
+            clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
+            background: linear-gradient(0deg, var(--dark-color) 30%, var(--dark-color-alpha) 100%);
+            font-size: 6vh;
+            padding: 2vh 1em;
+        }
+
+        header > div > small {
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 0.6em;
+            line-height: 1.2em;
+            opacity: 0.6;
+        }
+
+        .pattern {
+            position: fixed;
+            left: var(--border-size);
+            top: var(--border-size);
+            right: var(--border-size);
+            bottom: var(--border-size);
+            background: url(pat.jpg) no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.05;
+            z-index: 3;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="content" style="font-size:17vh">
+
+        <span class="pattern"></span>
+
+        <header>
+            <div>
+                <span></span>
+                <small></small>
+            </div>
+        </header>
+
+
+        <footer>
+            <div></div>
+        </footer>
+
+    </div>
+</body>                            
+</html>
