@@ -54,23 +54,6 @@
       "gender": "male",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-28006762975e415ce801b56.jpg"
     },
-
-    "saziye": {
-      "team": "red",
-      "name": "ŞAZİYE",
-      "fullname": "Şaziye İvegin Üner",
-      "gender": "female",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-211075262975e415d5faffd4.jpg"
-    },
-
-    "ugur": {
-      "team": "red",
-      "name": "UĞUR",
-      "fullname": "Uğur Pektaş",
-      "gender": "male",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-210184830025e415e0fbd7a9.jpg"
-    },
-
     "sercan": {
       "team": "red",
       "name": "SERCAN",
@@ -121,6 +104,20 @@
       "fullname": "Ersin Korkut",
       "gender": "male",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-220413600605e41611eed6ac.jpg"
+    },
+    "erman": {
+      "team": "red",
+      "name": "ERMAN",
+      "fullname": "Erman Altıkardeş",
+      "gender": "male",
+      "photo": "https://i.sozcu.com.tr/wp-content/uploads/2020/02/21/iecrop/survivor-erman-altikardes_16_9_1582265063.jpg"
+    },
+    "ersin": {
+      "team": "red",
+      "name": "İREM",
+      "fullname": "İrem Akın",
+      "gender": "female",
+      "photo": "https://diziviki.com/wp-content/uploads/2020/02/irem-ak%C4%B1n-survivor.jpg"
     },
     "yasin": {
       "team": "blue",
