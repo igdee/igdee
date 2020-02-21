@@ -4,6 +4,7 @@
     <style>
 
 
+
         @font-face {
             font-family: Impact;
             src: url("file:///android_asset/impact.ttf")
@@ -18,7 +19,7 @@
             font-family: Oswald;
             src: url("file:///android_asset/oswald.ttf")
         }
-        
+
         @font-face {
             font-family: WorkSans;
             src: url("file:///android_asset/oswald.ttf")
@@ -41,14 +42,14 @@
             margin: 0;
             padding: 0;
             font-family: Roboto, WorkSans, 'sans-serif';
-            display:flex;
+            display: flex;
             align-items: center;
             justify-content: center;
         }
 
         content {
             height: 100%;
-            width:100%;
+            width: 100%;
             align-items: stretch;
             display: flex;
             flex-direction: row;
@@ -56,89 +57,97 @@
             box-sizing: border-box;
         }
 
-        content > div {
-            display: flex;
-            flex-direction: row;
-            overflow: hidden;
-            align-items: center;
-            justify-content: center;
-            flex: 1;
-        }
-
-             content > div.left {
-                background: var(--first-color);
-                z-index:1;
-            }
-
-             content > div.right {
-                background: var(--second-color);
-                z-index:0;
-            }
-
-             content > div > img {
-                object-fit: cover;
-                object-position: top;
-                max-width: 100%;
-                max-height: 100%;
-                align-self: start;
-                flex: 1;
+            content > div {
+                display: flex;
+                flex-direction: row;
                 overflow: hidden;
-                -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+                align-items: center;
+                justify-content: center;
+                flex: 1;
             }
+
+                content > div.left {
+                    background: var(--first-color);
+                    z-index: 1;
+                }
+
+                content > div.right {
+                    background: var(--second-color);
+                    z-index: 0;
+                }
+
+                content > div > img {
+                    object-fit: cover;
+                    object-position: top;
+                    max-width: 100%;
+                    max-height: 100%;
+                    align-self: start;
+                    flex: 1;
+                    overflow: hidden;
+                    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+                }
 
         footer > div {
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding:1em;
             flex: 1;
         }
 
-        footer div small {
-            color: var(--dark-color-alpha);
+            footer > div small {
+                display: flex;
+                align-content: center;
+                align-items: center;
+                text-align: center;
+                min-width: 20vw;
+                font-size: 2vw;
+                margin: 2px 0;
+            }
+
+        small > i {
+            font-family:Oswald;
+            border-radius: 0.2em;
+            margin: 0 2px;
             background: var(--light-color-alpha);
+            color: var(--dark-color);
             text-align: center;
-            font-size: 2vw;
-            margin: 0.1em;
-            padding: 3px 15px;
-            clip-path: polygon(0 50%, 5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%);
-            min-width: 20vw;
+            padding: 0.2em;
+            font-style: normal;
+            min-width:3em;
         }
 
-        footer strong {
+            footer > div strong {
+                text-align: center;
+                font-family: Impact;
+                line-height: 0.9em;
+                font-size: 4vw;
+                color: var(--light-color-alpha);
+                font-weight: lighter;
+            }
+
+
+        footer h1,
+        footer h2,
+        footer h3 {
+            padding: 0;
+            margin: 0;
             text-align: center;
             font-family: Impact;
-            line-height: 0.9em;
-            font-size: 4vw;
             color: var(--light-color-alpha);
             font-weight: lighter;
-        }
-        
-        
-        footer  h1,
-        footer  h2,
-        footer  h3 {
-            padding:0;
-            margin:0;
-            text-align: center;
-            font-family: Impact;
-            color: var(--light-color-alpha);
-            font-weight: lighter;
+            display: flex;
+            flex-direction:column;
         }
 
         footer h3 {
-            line-height: 0.9em;
             font-size: 3vw;
         }
-        
+
         footer h2 {
-            line-height: 0.9em;
             font-size: 5vw;
         }
-              
+
         footer h1 {
-            line-height: 0.9em;
             font-size: 7vw;
         }
 
@@ -168,7 +177,8 @@
             header small {
                 display: block;
                 text-align: center;
-                font-family: Oswald;
+                font-family: Roboto;
+                font-weight:bold;
                 font-size: 2vw;
                 color: var(--light-color-alpha);
                 opacity: 0.6;
@@ -177,7 +187,8 @@
         footer {
             width: 100%;
             position: absolute;
-            bottom:0.29em;
+            bottom: 0;
+            min-height:40vh;
             z-index: 5;
             display: flex;
             align-content: center;
@@ -186,6 +197,7 @@
         }
 
             footer span {
+  
                 display: flex;
                 clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
                 background: linear-gradient(0deg, var(--dark-color) 30%, var(--dark-color-alpha) 100%);
@@ -199,29 +211,43 @@
 
             footer > span {
                 padding: 2vh;
-                align-self:flex-end;
+                align-self: flex-end;
             }
 
         em {
             font-weight: bolder;
-            position:absolute;
-            margin-top:15vh;
+            position: absolute;
+            margin-top: 15vh;
             font-size: 12vh;
             transform: rotate(-10deg);
             color: rgba(255,255,0, 0.8) !important;
-            text-shadow:0 0 3px #000;
+            text-shadow: 0 0 3px #000;
             z-index: 3;
             font-family: Oswald, Impact;
-            letter-spacing:normal;
+            letter-spacing: normal;
         }
 
         body > em {
-           color: var(--light-color-alpha) !important;
-           transform:rotate(0);
-           text-shadow:0 0 10px #000;
-           font-size: 18vh;
-           margin:0;
-           opacity:0.5;
+            color: var(--light-color-alpha) !important;
+            transform: rotate(0);
+            text-shadow: 0 0 10px #000;
+            font-size: 18vh;
+            margin: 0;
+            opacity: 0.5;
+        }
+
+        .pattern {
+            position: fixed;
+            left: var(--border-size);
+            top: var(--border-size);
+            right: var(--border-size);
+            bottom: var(--border-size);
+            background: url(pat.jpg) no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.05;
+            z-index: 13;
+            width:100vw;
+            height:100vh;
         }
 
     </style>
@@ -236,7 +262,11 @@
         </h1>
     </header>
 
+    <div class="pattern"></div>
+
+
     <content>
+
 
         <div class="left">
         </div>
@@ -249,7 +279,9 @@
     <footer>
 
         <div>
-            <h1></h1>
+            <h1>
+                <strong></strong>
+            </h1>
         </div>
 
         <span>
@@ -257,7 +289,9 @@
         </span>
 
         <div>
-            <h1></h1>
+            <h1>
+                <strong></strong>
+            </h1>
         </div>
 
     </footer>
