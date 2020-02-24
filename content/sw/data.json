@@ -188,6 +188,27 @@
       "fullname": "Burak Yurdugör",
       "gender": "male",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-211983525415e424fd483689.jpg"
+    },
+    
+    
+    
+    
+    
+    "saziye": {
+      "active":"false",  
+      "team": "red",
+      "name": "ŞAZİYE",
+      "fullname": "Şaziye İvegin Üner",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-211075262975e415d5faffd4.jpg"
+    },
+    "makbule": {
+      "active":"false",
+      "team": "blue",
+      "name": "MAKBULE",
+      "fullname": "Makbule Günaydın",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-211428494385e42522a75218.jpg"
     }
   }
 }
