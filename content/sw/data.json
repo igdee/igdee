@@ -98,13 +98,6 @@
       "gender": "male",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-220413600605e41611eed6ac.jpg"
     },
-    "erman": {
-      "team": "red",
-      "name": "ERMAN",
-      "fullname": "Erman Altıkardeş",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/erman.jpg"
-    },
     "irem": {
       "team": "red",
       "name": "İREM",
@@ -140,13 +133,6 @@
       "gender": "female",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-214003247955e42512027fde.jpg"
     },
-    "fatma": {
-      "team": "blue",
-      "name": "FATMA",
-      "fullname": "Fatma Günaydın",
-      "gender": "female",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-210173253215e424f6cc98ff.jpg"
-    },
     "meryem": {
       "team": "blue",
       "name": "MERYEM",
@@ -175,11 +161,7 @@
       "gender": "male",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-211983525415e424fd483689.jpg"
     },
-    
-    
-    
-    
-    
+
     "nisa": {
       "team": "blue",
       "name": "NİSA",
@@ -188,6 +170,28 @@
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-2325086495e4253546a432.jpg"
     },
     
+    
+    
+    
+    
+    
+    
+    "fatma": {
+      "active":"false",
+      "team": "blue",
+      "name": "FATMA",
+      "fullname": "Fatma Günaydın",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-210173253215e424f6cc98ff.jpg"
+    },
+    "erman": {
+      "active":"false",
+      "team": "red",
+      "name": "ERMAN",
+      "fullname": "Erman Altıkardeş",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/erman.jpg"
+    },
     "tugba": {
       "active":"false",
       "team": "red",
