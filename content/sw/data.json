@@ -61,15 +61,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/sercan.jpg"
     },
-
-    "derya": {
-      "team": "red",
-      "name": "DERYA",
-      "fullname": "Derya Can Göçen",
-      "gender": "female",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-2954031285e415f25b5674.jpg"
-    },
-
     "parviz": {
       "team": "red",
       "name": "PARVİZ",
@@ -200,6 +191,15 @@
     
     
     
+    
+    "derya": {
+      "active":"false",
+      "team": "red",
+      "name": "DERYA",
+      "fullname": "Derya Can Göçen",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-2954031285e415f25b5674.jpg"
+    },
     "fatma": {
       "active":"false",
       "team": "blue",
