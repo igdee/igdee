@@ -4,7 +4,6 @@
     <style>
 
 
-
         @font-face {
             font-family: Impact;
             src: url("file:///android_asset/impact.ttf")
@@ -26,10 +25,10 @@
         }
 
         :root {
-            --first-color: rgba(150,0,0,1);
-            --first-color-alpha: rgba(150, 0, 0, 0.3);
-            --second-color: rgba(0, 0, 150, 1);
-            --second-color-alpha: rgba(0, 0, 150, 0.3);
+            --first-color: rgba(100,0,0,1);
+            --first-color-alpha: rgba(100, 0, 0, 0.3);
+            --second-color: rgba(0, 0, 100, 1);
+            --second-color-alpha: rgba(0, 0, 100, 0.3);
             --light-color: rgba(255, 255, 255, 1);
             --light-color-alpha: rgba(255, 255, 255, 0.8);
             --dark-color: rgba(0, 0, 0, 1);
@@ -67,6 +66,9 @@
             }
 
                 content > div.left {
+                 
+                    margin-right:-2%;
+                     -webkit-mask-image:  -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(98%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
                     background: var(--first-color);
                     z-index: 1;
                 }
@@ -77,7 +79,7 @@
                 }
 
                 content > div > img {
-                    object-fit: cover;
+                    object-fit:cover;
                     object-position: top;
                     max-width: 100%;
                     max-height: 100%;
@@ -101,44 +103,45 @@
                 text-align: center;
                 min-width: 20vw;
                 font-size: 2vw;
-                margin: 2px 0;
+                margin:0.6vh 0;
             }
 
         small > i {
-            font-family:Oswald;
-            border-radius: 0.2em;
-            margin: 0 2px;
+            font-family: Oswald;
             background: var(--light-color-alpha);
             color: var(--dark-color);
             text-align: center;
             padding: 0.2em;
             font-style: normal;
-            min-width:3em;
+            min-width: 3em;
+            clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
         }
 
-            footer > div strong {
-                text-align: center;
-                font-family: Impact;
-                line-height: 0.9em;
-                font-size: 1em;
-                color: var(--light-color-alpha);
-                font-weight: lighter;
-            }
+
+        footer > div strong {
+            text-align: center;
+            font-family: Impact;
+            line-height: 0.9em;
+            font-size: 1em;
+            color: var(--light-color-alpha);
+            font-weight: lighter;
+        }
 
 
         footer h1,
         footer h2,
         footer h3 {
-            padding: 0; margin: 0;
+            padding: 0;
+            margin: 0;
             font-family: Impact;
             color: var(--light-color-alpha);
             font-weight: lighter;
             display: flex;
-            flex-direction:column;
+            flex-direction: column;
             align-content: center;
             align-items: center;
             text-align: center;
-            max-width:80%;
+            max-width: 80%;
         }
 
         footer h3 {
@@ -180,7 +183,7 @@
                 display: block;
                 text-align: center;
                 font-family: Roboto;
-                font-weight:bold;
+                font-weight: bold;
                 font-size: 2vw;
                 color: var(--light-color-alpha);
                 opacity: 0.6;
@@ -190,7 +193,7 @@
             width: 100%;
             position: absolute;
             bottom: 0;
-            min-height:40vh;
+            min-height: 40vh;
             z-index: 5;
             display: flex;
             align-content: center;
@@ -199,7 +202,6 @@
         }
 
             footer span {
-  
                 display: flex;
                 clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
                 background: linear-gradient(0deg, var(--dark-color) 30%, var(--dark-color-alpha) 100%);
@@ -246,10 +248,15 @@
             bottom: var(--border-size);
             background: url(pat.jpg) no-repeat center center fixed;
             background-size: cover;
-            opacity: 0.1;
+            opacity: 0.05;
             z-index: 13;
-            width:100vw;
-            height:100vh;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .wm {
+            background-image:url(wm.png)!important;
+            opacity:0.3;
         }
 
     </style>
@@ -265,7 +272,6 @@
     </header>
 
     <div class="pattern"></div>
-
 
     <content>
 
