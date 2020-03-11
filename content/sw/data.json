@@ -89,13 +89,6 @@
       "gender": "male",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-220413600605e41611eed6ac.jpg"
     },
-    "irem": {
-      "team": "red",
-      "name": "İREM",
-      "fullname": "İrem Akın",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/irem.jpg"
-    },
     "yasin": {
       "team": "blue",
       "name": "YASİN",
@@ -192,6 +185,15 @@
     
     
     
+    
+    "irem": {
+      "active":"false",
+      "team": "red",
+      "name": "İREM",
+      "fullname": "İrem Akın",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/irem.jpg"
+    },
     "derya": {
       "active":"false",
       "team": "red",
