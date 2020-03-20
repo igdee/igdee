@@ -131,13 +131,6 @@
       "gender": "male",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-28085327155e4250b49bc5c.jpg"
     },
-    "tayfun": {
-      "team": "blue",
-      "name": "TAYFUN",
-      "fullname": "Tayfun Erdoğan",
-      "gender": "male",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-26724736675e42530455cc6.jpg"
-    },
     "burak": {
       "team": "blue",
       "name": "BURAK",
@@ -180,14 +173,7 @@
       "fullname": "GİZEM BİRDAL",
       "gender": "female",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/03/02/gizem1813254065e5d4e5c706b7.jpg"
-    },   
-          "ilayda": {
-      "team": "blue",
-      "name": "İLAYDA",
-      "fullname": "İlayda Velibeyoğlu",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/ilayda.jpg"
-    },  
+    },    
      
    "ezgi": {
       "team": "red",
@@ -198,7 +184,23 @@
     },  
     
     
-    
+
+    "tayfun": {
+      "active":"false",
+      "team": "blue",
+      "name": "TAYFUN",
+      "fullname": "Tayfun Erdoğan",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-26724736675e42530455cc6.jpg"
+    },
+"ilayda": {
+      "active":"false",
+      "team": "blue",
+      "name": "İLAYDA",
+      "fullname": "İlayda Velibeyoğlu",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/ilayda.jpg"
+    }, 
     
     "irem": {
       "active":"false",
