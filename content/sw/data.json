@@ -103,13 +103,6 @@
       "gender": "male",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-221188837105e4251b3910ae.jpg"
     },
-    "ceyhun": {
-      "team": "blue",
-      "name": "CEYHUN",
-      "fullname": "Ceyhun Uzun",
-      "gender": "male",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-212344098385e42529fd5a18.jpg"
-    },
     "evrim": {
       "team": "blue",
       "name": "EVRİM",
@@ -183,8 +176,22 @@
       "photo": "https://igdee.com/content/sw/ezgi.jpg"
     },  
     
-    
-
+     "meryem": {
+      "active":"false",
+      "team": "blue",
+      "name": "MERYEM",
+      "fullname": "Meryem Kasap",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-213181317055e42506260e8b.jpg"
+    },
+    "ceyhun": {
+      "active":"false",
+      "team": "blue",
+      "name": "CEYHUN",
+      "fullname": "Ceyhun Uzun",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-212344098385e42529fd5a18.jpg"
+    },
     "tayfun": {
       "active":"false",
       "team": "blue",
