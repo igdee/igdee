@@ -124,14 +124,6 @@
       "gender": "male",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-28085327155e4250b49bc5c.jpg"
     },
-    "burak": {
-      "team": "blue",
-      "name": "BURAK",
-      "fullname": "Burak Yurdugör",
-      "gender": "male",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-211983525415e424fd483689.jpg"
-    },
-
     "nisa": {
       "team": "blue",
       "name": "NİSA",
@@ -176,6 +168,24 @@
       "photo": "https://igdee.com/content/sw/ezgi.jpg"
     },  
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    "burak": {
+      "active":"false",
+      "team": "blue",
+      "name": "BURAK",
+      "fullname": "Burak Yurdugör",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-211983525415e424fd483689.jpg"
+    },
      "meryem": {
       "active":"false",
       "team": "blue",
