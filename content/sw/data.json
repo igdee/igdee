@@ -61,13 +61,7 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/sercan.jpg"
     },
-    "parviz": {
-      "team": "red",
-      "name": "PARVİZ",
-      "fullname": "Parviz Abdullayev",
-      "gender": "male",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-217529022715e415f9337cfc.jpg"
-    },
+
     "aycan": {
       "team": "red",
       "name": "AYCAN",
@@ -177,7 +171,14 @@
     
     
     
-    
+    "parviz": {
+      "active":"false",
+      "team": "red",
+      "name": "PARVİZ",
+      "fullname": "Parviz Abdullayev",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-217529022715e415f9337cfc.jpg"
+    },
     "burak": {
       "active":"false",
       "team": "blue",
