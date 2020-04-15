@@ -135,7 +135,7 @@
     },
     
     "berkan": {
-      "team": "red",
+      "team": "blue",
       "name": "BERKAN",
       "fullname": "Berkan Karabulut",
       "gender": "male",
@@ -143,7 +143,7 @@
     },
     
     "emre": {
-      "team": "blue",
+      "team": "red",
       "name": "YUNUS EMRE",
       "fullname": "Yunus Emre Özden",
       "gender": "male",
