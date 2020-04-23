@@ -170,22 +170,28 @@
       "photo": "https://igdee.com/content/sw/gizem.jpg"
     },    
      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
    "ezgi": {
+     "active":"false",
       "team": "red",
       "name": "EZGİ",
       "fullname": "Ezgi Hocaoğlu",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/ezgi.jpg"
     },  
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     "parviz": {
       "active":"false",
