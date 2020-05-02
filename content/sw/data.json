@@ -162,28 +162,31 @@
       "photo": "https://igdee.com/content/sw/askim.jpg"
     },  
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     "gizem": {
+      "active":"false",
       "team": "blue",
       "name": "GİZEM",
       "fullname": "GİZEM BİRDAL",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/gizem.jpg"
     },    
-     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
    "ezgi": {
      "active":"false",
       "team": "red",
