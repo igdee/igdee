@@ -82,13 +82,7 @@
       "gender": "female",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-25566940455e4160614f801.jpg"
     },
-    "ersin": {
-      "team": "red",
-      "name": "ERSİN",
-      "fullname": "Ersin Korkut",
-      "gender": "male",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-220413600605e41611eed6ac.jpg"
-    },
+
     
     "yasin": {
       "team": "blue",
@@ -162,6 +156,14 @@
     
     
     
+    "ersin": {
+      "active":"false",
+      "team": "red",
+      "name": "ERSİN",
+      "fullname": "Ersin Korkut",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-220413600605e41611eed6ac.jpg"
+    },
     
    "askim": {
       "active":"false",
