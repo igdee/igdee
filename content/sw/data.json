@@ -64,14 +64,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/sercan.jpg"
     },
-
-    "aycan": {
-      "team": "red",
-      "name": "AYCAN",
-      "fullname": "Aycan Yanaç",
-      "gender": "female",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-217937980265e416017de67b.jpg"
-    },
     
     "elif": {
       "team": "red",
@@ -151,7 +143,14 @@
     
     
     
-    
+    "aycan": {
+      "active":"false",
+      "team": "red",
+      "name": "AYCAN",
+      "fullname": "Aycan Yanaç",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-217937980265e416017de67b.jpg"
+    },
     "mert": {
       "active":"false",
       "team": "red",
