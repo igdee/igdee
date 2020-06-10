@@ -39,6 +39,7 @@
       "name": "ÜNLÜLER",
       "color": "red"
     },
+    
     "blue": {
       "name": "GÖNÜLLÜLER",
       "color": "blue"
@@ -58,7 +59,7 @@
 
     
     "sercan": {
-      "team": "red",
+      "team": "blue",
       "name": "SERCAN",
       "fullname": "Sercan Yıldırım",
       "gender": "male",
@@ -66,7 +67,7 @@
     },
     
     "elif": {
-      "team": "red",
+      "team": "blue",
       "name": "ELİF",
       "fullname": "Elif Yıldırım Gören",
       "gender": "female",
@@ -83,7 +84,7 @@
     },
     
     "cemal": {
-      "team": "blue",
+      "team": "red",
       "name": "CEMAL CAN",
       "fullname": "Cemal Can Canseven",
       "gender": "male",
@@ -91,7 +92,7 @@
     },
     
     "evrim": {
-      "team": "blue",
+      "team": "red",
       "name": "EVRİM",
       "fullname": "Evrim Keklik",
       "gender": "female",
@@ -107,7 +108,7 @@
     },
     
     "nisa": {
-      "team": "blue",
+      "team": "red",
       "name": "NİSA",
       "fullname": "Nisa Bölükbaşı",
       "gender": "female",
@@ -122,26 +123,25 @@
       "photo": "https://igdee.com/content/sw/berkan.jpg"
     },
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     "emre": {
+      "active":"false",
       "team": "red",
       "name": "YUNUS EMRE",
       "fullname": "Yunus Emre Özden",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/emre.jpg"
     },
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     "aycan": {
       "active":"false",
@@ -151,6 +151,7 @@
       "gender": "female",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-217937980265e416017de67b.jpg"
     },
+    
     "mert": {
       "active":"false",
       "team": "red",
@@ -159,6 +160,7 @@
       "gender": "male",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-28006762975e415ce801b56.jpg"
     },
+    
     "ersin": {
       "active":"false",
       "team": "red",
@@ -184,7 +186,8 @@
       "fullname": "GİZEM BİRDAL",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/gizem.jpg"
-    },    
+    },   
+    
    "ezgi": {
      "active":"false",
       "team": "red",
