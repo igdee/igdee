@@ -49,7 +49,7 @@
   "players": {
 
     "baris": {
-      "team": "red",
+      "team": "blue",
       "name": "BARIŞ",
       "fullname": "Barış Murat Yağcı",
       "gender": "male",
@@ -59,7 +59,7 @@
 
     
     "sercan": {
-      "team": "blue",
+      "team": "red",
       "name": "SERCAN",
       "fullname": "Sercan Yıldırım",
       "gender": "male",
@@ -67,7 +67,7 @@
     },
     
     "elif": {
-      "team": "blue",
+      "team": "red",
       "name": "ELİF",
       "fullname": "Elif Yıldırım Gören",
       "gender": "female",
@@ -84,7 +84,7 @@
     },
     
     "cemal": {
-      "team": "red",
+      "team": "blue",
       "name": "CEMAL CAN",
       "fullname": "Cemal Can Canseven",
       "gender": "male",
@@ -92,23 +92,17 @@
     },
     
     "evrim": {
-      "team": "blue",
+      "team": "red",
       "name": "EVRİM",
       "fullname": "Evrim Keklik",
       "gender": "female",
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-214003247955e42512027fde.jpg"
     },
 
-    "sadik": {
-      "team": "blue",
-      "name": "ARDAHAN",
-      "fullname": "Sadık Ardahan Uzkanbaş",
-      "gender": "male",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-28085327155e4250b49bc5c.jpg"
-    },
+
     
     "nisa": {
-      "team": "red",
+      "team": "blue",
       "name": "NİSA",
       "fullname": "Nisa Bölükbaşı",
       "gender": "female",
@@ -133,7 +127,14 @@
     
     
     
-    
+    "sadik": {
+      "active":"false",
+      "team": "blue",
+      "name": "ARDAHAN",
+      "fullname": "Sadık Ardahan Uzkanbaş",
+      "gender": "male",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-28085327155e4250b49bc5c.jpg"
+    },
     "emre": {
       "active":"false",
       "team": "red",
