@@ -93,14 +93,7 @@
     
 
 
-    
-    "nisa": {
-      "team": "blue",
-      "name": "NİSA",
-      "fullname": "Nisa Bölükbaşı",
-      "gender": "female",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-2325086495e4253546a432.jpg"
-    },
+
     
     "berkan": {
       "team": "blue",
@@ -117,6 +110,15 @@
     
     
     
+        
+    "nisa": {
+      "active":"false",
+      "team": "blue",
+      "name": "NİSA",
+      "fullname": "Nisa Bölükbaşı",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-2325086495e4253546a432.jpg"
+    },
     
      "evrim": {
       "active":"false",
