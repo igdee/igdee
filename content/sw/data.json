@@ -55,16 +55,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/baris.jpg"
     },
-
-
-    
-    "sercan": {
-      "team": "blue",
-      "name": "SERCAN",
-      "fullname": "Sercan Yıldırım",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/sercan.jpg"
-    },
     
     "elif": {
       "team": "red",
@@ -109,7 +99,14 @@
     
     
     
-    
+  "sercan": {
+      "active":"false",
+      "team": "blue",
+      "name": "SERCAN",
+      "fullname": "Sercan Yıldırım",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/sercan.jpg"
+    },
         
     "nisa": {
       "active":"false",
