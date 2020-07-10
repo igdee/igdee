@@ -56,15 +56,7 @@
       "photo": "https://igdee.com/content/sw/baris.jpg"
     },
     
-    "elif": {
-      "team": "red",
-      "name": "ELİF",
-      "fullname": "Elif Yıldırım Gören",
-      "gender": "female",
-      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-25566940455e4160614f801.jpg"
-    },
 
-    
     "yasin": {
       "team": "blue",
       "name": "YASİN",
@@ -97,7 +89,16 @@
     
     
     
-    
+ 
+    "elif": {
+      "active":"false",
+      "team": "red",
+      "name": "ELİF",
+      "fullname": "Elif Yıldırım Gören",
+      "gender": "female",
+      "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/10/basliksiz-25566940455e4160614f801.jpg"
+    },
+
     
   "sercan": {
       "active":"false",
