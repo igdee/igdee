@@ -90,8 +90,19 @@
     
     
  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     "elif": {
-      "active":"false",
       "team": "red",
       "name": "ELİF",
       "fullname": "Elif Yıldırım Gören",
@@ -101,7 +112,6 @@
 
     
   "sercan": {
-      "active":"false",
       "team": "blue",
       "name": "SERCAN",
       "fullname": "Sercan Yıldırım",
@@ -110,7 +120,6 @@
     },
         
     "nisa": {
-      "active":"false",
       "team": "blue",
       "name": "NİSA",
       "fullname": "Nisa Bölükbaşı",
@@ -119,7 +128,6 @@
     },
     
      "evrim": {
-      "active":"false",
       "team": "red",
       "name": "EVRİM",
       "fullname": "Evrim Keklik",
@@ -129,7 +137,6 @@
 
     
     "sadik": {
-      "active":"false",
       "team": "blue",
       "name": "ARDAHAN",
       "fullname": "Sadık Ardahan Uzkanbaş",
@@ -137,7 +144,6 @@
       "photo": "https://img.acunn.com/foto/456x763/uploads/yarismaci/2020/02/11/basliksiz-28085327155e4250b49bc5c.jpg"
     },
     "emre": {
-      "active":"false",
       "team": "red",
       "name": "YUNUS EMRE",
       "fullname": "Yunus Emre Özden",
@@ -146,7 +152,6 @@
     },
     
     "aycan": {
-      "active":"false",
       "team": "red",
       "name": "AYCAN",
       "fullname": "Aycan Yanaç",
@@ -155,7 +160,6 @@
     },
     
     "mert": {
-      "active":"false",
       "team": "red",
       "name": "MERT",
       "fullname": "Mert Öcal",
@@ -164,7 +168,6 @@
     },
     
     "ersin": {
-      "active":"false",
       "team": "red",
       "name": "ERSİN",
       "fullname": "Ersin Korkut",
@@ -173,7 +176,6 @@
     },
     
    "askim": {
-      "active":"false",
       "team": "red",
       "name": "AŞKIM",
       "fullname": "Aşkım Burçe Tunay",
@@ -182,7 +184,6 @@
     },  
     
     "gizem": {
-      "active":"false",
       "team": "blue",
       "name": "GİZEM",
       "fullname": "GİZEM BİRDAL",
@@ -191,7 +192,6 @@
     },   
     
    "ezgi": {
-     "active":"false",
       "team": "red",
       "name": "EZGİ",
       "fullname": "Ezgi Hocaoğlu",
@@ -200,7 +200,6 @@
     },  
     
     "parviz": {
-      "active":"false",
       "team": "red",
       "name": "PARVİZ",
       "fullname": "Parviz Abdullayev",
@@ -209,7 +208,6 @@
     },
     
     "burak": {
-      "active":"false",
       "team": "blue",
       "name": "BURAK",
       "fullname": "Burak Yurdugör",
@@ -218,7 +216,6 @@
     },
     
      "meryem": {
-      "active":"false",
       "team": "blue",
       "name": "MERYEM",
       "fullname": "Meryem Kasap",
@@ -227,7 +224,6 @@
     },
     
     "ceyhun": {
-      "active":"false",
       "team": "blue",
       "name": "CEYHUN",
       "fullname": "Ceyhun Uzun",
@@ -236,7 +232,6 @@
     },
     
     "tayfun": {
-      "active":"false",
       "team": "blue",
       "name": "TAYFUN",
       "fullname": "Tayfun Erdoğan",
@@ -245,7 +240,6 @@
     },
     
     "ilayda": {
-      "active":"false",
       "team": "blue",
       "name": "İLAYDA",
       "fullname": "İlayda Velibeyoğlu",
@@ -254,7 +248,6 @@
     }, 
     
     "irem": {
-      "active":"false",
       "team": "red",
       "name": "İREM",
       "fullname": "İrem Akın",
@@ -263,7 +256,6 @@
     },
     
     "derya": {
-      "active":"false",
       "team": "red",
       "name": "DERYA",
       "fullname": "Derya Can Göçen",
@@ -272,7 +264,6 @@
     },
     
     "fatma": {
-      "active":"false",
       "team": "blue",
       "name": "FATMA",
       "fullname": "Fatma Günaydın",
@@ -281,7 +272,6 @@
     },
     
     "erman": {
-      "active":"false",
       "team": "red",
       "name": "ERMAN",
       "fullname": "Erman Altıkardeş",
@@ -290,7 +280,6 @@
     },
     
     "tugba": {
-      "active":"false",
       "team": "red",
       "name": "MELİS",
       "fullname": "Tuğba Melis Türk",
@@ -299,7 +288,6 @@
     },
     
     "saziye": {
-      "active":"false",  
       "team": "red",
       "name": "ŞAZİYE",
       "fullname": "Şaziye İvegin Üner",
@@ -308,7 +296,6 @@
     },
     
     "makbule": {
-      "active":"false",
       "team": "blue",
       "name": "MAKBULE",
       "fullname": "Makbule Günaydın",
