@@ -49,7 +49,7 @@
   "players": {
 
     "baris": {
-      "team": "red",
+      "team": "blue",
       "name": "BARIŞ",
       "fullname": "Barış Murat Yağcı",
       "gender": "male",
@@ -78,7 +78,7 @@
 
     
     "berkan": {
-      "team": "red",
+      "team": "blue",
       "name": "BERKAN",
       "fullname": "Berkan Karabulut",
       "gender": "male",
@@ -112,7 +112,7 @@
 
     
   "sercan": {
-      "team": "blue",
+      "team": "red",
       "name": "SERCAN",
       "fullname": "Sercan Yıldırım",
       "gender": "male",
@@ -128,7 +128,7 @@
     },
     
      "evrim": {
-      "team": "red",
+      "team": "blue",
       "name": "EVRİM",
       "fullname": "Evrim Keklik",
       "gender": "female",
