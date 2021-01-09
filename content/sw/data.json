@@ -48,6 +48,20 @@
 
   "players": {
 
+    "unluler": {
+      "team": "red",
+      "name": "ÜNLÜLER",
+      "fullname": "ÜNLÜLER",
+      "photo": "https://igdee.com/content/sw/unluler.jpg"
+    },
+    
+    "gonulluler": {
+      "team": "blue",
+      "name": "GÖNLÜLLÜLER",
+      "fullname": "GÖNLÜLLÜLER",
+      "photo": "https://igdee.com/content/sw/gonulluler.jpg"
+    },
+    
     "baris": {
       "team": "red",
       "name": "BARIŞ",
@@ -128,6 +142,14 @@
       "photo": "https://igdee.com/content/sw/oyku.jpg"
     },
     
+    "ilayda": {
+      "team": "red",
+      "name": "İLAYDA",
+      "fullname": "İlayda Şeker",
+      "gender": "female",
+      "photo":  "https://igdee.com/content/sw/ilayda.jpg"
+    },
+    
     "aleyna": {
       "team": "blue",
       "name": "ALEYNA",
@@ -159,15 +181,7 @@
       "gender": "female",
       "photo":  "https://igdee.com/content/sw/hanzade.jpg"
     },
-    
-    "ilayda": {
-      "team": "blue",
-      "name": "İLAYDA",
-      "fullname": "İlayda Şeker",
-      "gender": "female",
-      "photo":  "https://igdee.com/content/sw/ilayda.jpg"
-    },
-    
+
    "sancakay": {
       "team": "blue",
       "name": "SANCAKAY",
