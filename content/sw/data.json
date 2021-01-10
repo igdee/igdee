@@ -52,14 +52,14 @@
       "team": "red",
       "name": "ÜNLÜLER",
       "fullname": "ÜNLÜLER",
-      "photo": "https://igdee.com/content/sw/unluler.jpg"
+      "photo": "https://igdee.com/content/sw/unluler.png"
     },
     
     "gonulluler": {
       "team": "blue",
       "name": "GÖNLÜLLÜLER",
       "fullname": "GÖNLÜLLÜLER",
-      "photo": "https://igdee.com/content/sw/gonulluler.jpg"
+      "photo": "https://igdee.com/content/sw/gonulluler.png"
     },
     
     "baris": {
@@ -67,7 +67,7 @@
       "name": "BARIŞ",
       "fullname": "Barış Özbek",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/baris.jpg"
+      "photo": "https://igdee.com/content/sw/baris.png"
     },
     
     "batuhan": {
@@ -75,7 +75,7 @@
       "name": "BATUHAN",
       "fullname": "Batuhan Karacakaya",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/batuhan.jpg"
+      "photo": "https://igdee.com/content/sw/batuhan.png"
     },
     
     "cemal": {
@@ -83,7 +83,7 @@
       "name": "CEMAL",
       "fullname": "Cemal Hünal",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/cemal.jpg"
+      "photo": "https://igdee.com/content/sw/cemal.png"
     },
     
     "cagri": {
@@ -91,7 +91,7 @@
       "name": "ÇAĞRI",
       "fullname": "Çağrı Atakan",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/cagri.jpg"
+      "photo": "https://igdee.com/content/sw/cagri.png"
     },
 
     "hayrettin": {
@@ -99,7 +99,7 @@
       "name": "HAYRETTİN",
       "fullname": "Hayrettin Karaoğuz",
       "gender": "male",
-      "photo":  "https://igdee.com/content/sw/hayrettin.jpg"
+      "photo":  "https://igdee.com/content/sw/hayrettin.png"
     },
 
   "ismail": {
@@ -115,7 +115,7 @@
       "name": "MELİS",
       "fullname": "Melis Sezer",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/melis.jpg"
+      "photo": "https://igdee.com/content/sw/melis.png"
     },
     
     "merve": {
@@ -123,7 +123,7 @@
       "name": "MERVE",
       "fullname": "Merve Aydın",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/merve.jpg"
+      "photo": "https://igdee.com/content/sw/merve.png"
     },
 
     "meryem": {
@@ -131,7 +131,7 @@
       "name": "MERYEM",
       "fullname": "Meryem Kasap",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/meryem.jpg"
+      "photo": "https://igdee.com/content/sw/meryem.png"
     },
     
     "oyku": {
@@ -147,7 +147,7 @@
       "name": "İLAYDA",
       "fullname": "İlayda Şeker",
       "gender": "female",
-      "photo":  "https://igdee.com/content/sw/ilayda.jpg"
+      "photo":  "https://igdee.com/content/sw/ilayda.png"
     },
     
     "aleyna": {
@@ -155,7 +155,7 @@
       "name": "ALEYNA",
       "fullname": "Aleyna Kalaycıoğlu",
       "gender": "female",
-      "photo":  "https://igdee.com/content/sw/aleyna.jpg"
+      "photo":  "https://igdee.com/content/sw/aleyna.png"
     },
     
     "ayse": {
@@ -163,7 +163,7 @@
       "name": "AYŞE",
       "fullname": "Ayşe Yüksel",
       "gender": "female",
-      "photo":  "https://igdee.com/content/sw/ayse.jpg"
+      "photo":  "https://igdee.com/content/sw/ayse.png"
     },
     
     "emin": {
@@ -171,7 +171,7 @@
       "name": "EMİN",
       "fullname": "Emin Günenç",
       "gender": "male",
-      "photo":  "https://igdee.com/content/sw/emin.jpg"
+      "photo":  "https://igdee.com/content/sw/emin.png"
     },
     
     "hanzade": {
@@ -179,7 +179,7 @@
       "name": "HANZADE",
       "fullname": "Hanzade Ofluoğlu",
       "gender": "female",
-      "photo":  "https://igdee.com/content/sw/hanzade.jpg"
+      "photo":  "https://igdee.com/content/sw/hanzade.png"
     },
 
    "sancakay": {
@@ -187,7 +187,7 @@
       "name": "SANCAKAY",
       "fullname": "Sancakay Ilım Morgül",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/sancakay.jpg"
+      "photo": "https://igdee.com/content/sw/sancakay.png"
     },  
     
    "sena": {
@@ -195,7 +195,7 @@
       "name": "SENA",
       "fullname": "Sena Özdemir",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/sena.jpg"
+      "photo": "https://igdee.com/content/sw/sena.png"
     },  
     
     "steven": {
@@ -203,7 +203,7 @@
       "name": "STEVEN",
       "fullname": "Steven Salam",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/steven.jpg"
+      "photo": "https://igdee.com/content/sw/steven.png"
     },
     
     "resat": {
@@ -211,7 +211,7 @@
       "name": "REŞAT",
       "fullname": "Sultan Reşat Hacıahmetoğlu",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/resat.jpg"
+      "photo": "https://igdee.com/content/sw/resat.png"
     },
     
     "dora": {
@@ -219,7 +219,7 @@
       "name": "DORA",
       "fullname": "Uğrurtan Dora",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/ugurtan.jpg"
+      "photo": "https://igdee.com/content/sw/dora.png"
     },
     
     "poyraz": {
@@ -227,7 +227,7 @@
       "name": "POYRAZ",
       "fullname": "Yiğit Poyraz",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/yigit.jpg"
+      "photo": "https://igdee.com/content/sw/poyraz.png"
     },
     
     "emre": {
@@ -235,7 +235,7 @@
       "name": "EMRE",
       "fullname": "Yunus Emre Karabacak",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/yunusemre.jpg"
+      "photo": "https://igdee.com/content/sw/emre.jpg"
     }
     
   }
