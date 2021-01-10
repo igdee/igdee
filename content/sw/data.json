@@ -107,7 +107,7 @@
       "name": "İSMAİL",
       "fullname": "İsmail Balaban",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/ismail.jpg"
+      "photo": "https://igdee.com/content/sw/ismail.png"
     },
         
     "melis": {
@@ -139,7 +139,7 @@
       "name": "ÖYKÜ",
       "fullname": "Öykü Çelik",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/oyku.jpg"
+      "photo": "https://igdee.com/content/sw/oyku.png"
     },
     
     "ilayda": {
@@ -235,7 +235,7 @@
       "name": "EMRE",
       "fullname": "Yunus Emre Karabacak",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/emre.jpg"
+      "photo": "https://igdee.com/content/sw/emre.png"
     }
     
   }
