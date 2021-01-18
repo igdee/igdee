@@ -168,14 +168,14 @@
     
    "bahar": {
       "team": "red",
-      "name": "Bahar Sevis",
-      "fullname": "BAHAR",
+      "name": "BAHAR",
+      "fullname": "Bahar Seviş",
       "gender": "female",
       "photo":  "https://igdee.com/content/sw/woman.png"
     },
     
      "duygu": {
-      "team": "red",
+      "team": "blue",
       "name": "DUYGU",
       "fullname": "Duygu Serap Salman",
       "gender": "female",
