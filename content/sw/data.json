@@ -150,6 +150,38 @@
       "photo":  "https://igdee.com/content/sw/ilayda.png"
     },
     
+     "sergen": {
+      "team": "red",
+      "name": "SERGEN",
+      "fullname": "Sergen Bayar",
+      "gender": "male",
+      "photo":  "https://igdee.com/content/sw/man.png"
+    },
+    
+     "baran": {
+      "team": "blue",
+      "name": "BARAN",
+      "fullname": "Baran Köse",
+      "gender": "male",
+      "photo":  "https://igdee.com/content/sw/man.png"
+    },
+    
+   "bahar": {
+      "team": "red",
+      "name": "Bahar Sevis",
+      "fullname": "BAHAR",
+      "gender": "female",
+      "photo":  "https://igdee.com/content/sw/woman.png"
+    },
+    
+     "duygu": {
+      "team": "red",
+      "name": "DUYGU",
+      "fullname": "Duygu Serap Salman",
+      "gender": "female",
+      "photo":  "https://igdee.com/content/sw/woman.png"
+    },
+    
     "aleyna": {
       "team": "blue",
       "name": "ALEYNA",
@@ -189,14 +221,7 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/sancakay.png"
     },  
-    
-   "sena": {
-      "team": "blue",
-      "name": "SENA",
-      "fullname": "Sena Özdemir",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/sena.png"
-    },  
+   
     
     "steven": {
       "team": "blue",
@@ -236,7 +261,15 @@
       "fullname": "Yunus Emre Karabacak",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/emre.png"
-    }
+    },
     
+    "sena": {
+     "active":"false",
+      "team": "blue",
+      "name": "SENA",
+      "fullname": "Sena Özdemir",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/sena.png"
+    }  
   }
 }
