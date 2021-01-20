@@ -52,14 +52,16 @@
       "team": "red",
       "name": "ÜNLÜLER",
       "fullname": "ÜNLÜLER",
-      "photo": "https://igdee.com/content/sw/unluler.png"
+      "photo": "https://igdee.com/content/sw/unluler.png",
+      "group":true
     },
     
     "gonulluler": {
       "team": "blue",
       "name": "GÖNÜLLÜLER",
       "fullname": "GÖNÜLLÜLER",
-      "photo": "https://igdee.com/content/sw/gonulluler.png"
+      "photo": "https://igdee.com/content/sw/gonulluler.png",
+       "group":true
     },
     
     "baris": {
