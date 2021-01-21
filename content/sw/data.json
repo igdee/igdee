@@ -79,15 +79,7 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/batuhan.png"
     },
-    
-    "cemal": {
-      "team": "red",
-      "name": "CEMAL",
-      "fullname": "Cemal Hünal",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/cemal.png"
-    },
-    
+
     "cagri": {
       "team": "red",
       "name": "ÇAĞRI",
@@ -216,15 +208,6 @@
       "photo":  "https://igdee.com/content/sw/hanzade.png"
     },
 
-   "sancakay": {
-      "team": "blue",
-      "name": "SANCAKAY",
-      "fullname": "Sancakay Ilım Morgül",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/sancakay.png"
-    },  
-   
-    
     "steven": {
       "team": "blue",
       "name": "STEVEN",
@@ -266,12 +249,30 @@
     },
     
     "sena": {
-     "active":"false",
+     "active":false,
       "team": "blue",
       "name": "SENA",
       "fullname": "Sena Özdemir",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/sena.png"
-    }  
+    },  
+    
+    "sancakay": {
+      "active":false,
+      "team": "blue",
+      "name": "SANCAKAY",
+      "fullname": "Sancakay Ilım Morgül",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/sancakay.png"
+    },
+    
+    "cemal": {
+      "active":false,
+      "team": "red",
+      "name": "CEMAL",
+      "fullname": "Cemal Hünal",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/cemal.png"
+    }
   }
 }
