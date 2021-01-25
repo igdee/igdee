@@ -119,14 +119,6 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/merve.png"
     },
-
-    "meryem": {
-      "team": "red",
-      "name": "MERYEM",
-      "fullname": "Meryem Kasap",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/meryem.png"
-    },
     
     "oyku": {
       "team": "red",
@@ -273,6 +265,15 @@
       "fullname": "Cemal Hünal",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/cemal.png"
+    },
+    
+    "meryem": {
+      "active":false,
+      "team": "red",
+      "name": "MERYEM",
+      "fullname": "Meryem Kasap",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/meryem.png"
     }
   }
 }
