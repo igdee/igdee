@@ -152,14 +152,6 @@
       "photo":  "https://igdee.com/content/sw/baran.png"
     },
     
-   "bahar": {
-      "team": "red",
-      "name": "BAHAR",
-      "fullname": "Bahar Seviş",
-      "gender": "female",
-      "photo":  "https://igdee.com/content/sw/bahar.png"
-    },
-    
      "duygu": {
       "team": "blue",
       "name": "DUYGU",
@@ -232,9 +224,9 @@
       "photo": "https://igdee.com/content/sw/poyraz.png"
     },
     
-    "emre": {
+    "yunusemre": {
       "team": "blue",
-      "name": "EMRE",
+      "name": "YUNUSEMRE",
       "fullname": "Yunus Emre Karabacak",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/emre.png"
@@ -274,6 +266,16 @@
       "fullname": "Meryem Kasap",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/meryem.png"
-    }
+    },
+    
+   "bahar": {
+      "active":false,
+      "team": "red",
+      "name": "BAHAR",
+      "fullname": "Bahar Seviş",
+      "gender": "female",
+      "photo":  "https://igdee.com/content/sw/bahar.png"
+    },
+    
   }
 }
