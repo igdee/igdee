@@ -175,15 +175,7 @@
       "gender": "female",
       "photo":  "https://igdee.com/content/sw/ayse.png"
     },
-    
-    "emin": {
-      "team": "blue",
-      "name": "EMİN",
-      "fullname": "Emin Günenç",
-      "gender": "male",
-      "photo":  "https://igdee.com/content/sw/emin.png"
-    },
-    
+   
     "hanzade": {
       "team": "blue",
       "name": "HANZADE",
@@ -297,6 +289,15 @@
       "fullname": "Bahar Seviş",
       "gender": "female",
       "photo":  "https://igdee.com/content/sw/bahar.png"
+    },
+    
+    "emin": {
+      "active":false,
+      "team": "blue",
+      "name": "EMİN",
+      "fullname": "Emin Günenç",
+      "gender": "male",
+      "photo":  "https://igdee.com/content/sw/emin.png"
     }
     
   }
