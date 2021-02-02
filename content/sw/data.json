@@ -229,7 +229,7 @@
       "name": "DOĞAN",
       "fullname": "Doğan Keser",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/man.png"
+      "photo": "https://igdee.com/content/sw/dogan.png"
     },
     
      "gonca": {
@@ -237,14 +237,15 @@
       "name": "GONCA",
       "fullname": "Gonca Janset",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/woman.png"
+      "photo": "https://igdee.com/content/sw/gonca.png"
     },
     "aleyn": {
       "team": "blue",
-      "name": "A.ÇALIŞKAN",
+      "name": "ALEYN4",
+      "alias": "ALEYNA.Ç",
       "fullname": "Aleyna Çalışkan",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/woman.png"
+      "photo": "https://igdee.com/content/sw/aleyn4.png"
     },
     "sena": {
      "active":false,
