@@ -152,13 +152,7 @@
       "photo":  "https://igdee.com/content/sw/baran.png"
     },
     
-     "duygu": {
-      "team": "blue",
-      "name": "DUYGU",
-      "fullname": "Duygu Serap Salman",
-      "gender": "female",
-      "photo":  "https://igdee.com/content/sw/duygu.png"
-    },
+    
     
     "aleyna": {
       "team": "blue",
@@ -298,6 +292,14 @@
       "fullname": "Emin Günenç",
       "gender": "male",
       "photo":  "https://igdee.com/content/sw/emin.png"
+    },
+     "duygu": {
+      "active":false,
+      "team": "blue",
+      "name": "DUYGU",
+      "fullname": "Duygu Serap Salman",
+      "gender": "female",
+      "photo":  "https://igdee.com/content/sw/duygu.png"
     }
     
   }
