@@ -144,15 +144,7 @@
       "photo":  "https://igdee.com/content/sw/sergen.png"
     },
     
-     "baran": {
-      "team": "blue",
-      "name": "BARAN",
-      "fullname": "Baran Köse",
-      "gender": "male",
-      "photo":  "https://igdee.com/content/sw/baran.png"
-    },
-    
-    
+
     
     "aleyna": {
       "team": "blue",
@@ -233,6 +225,7 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/gonca.png"
     },
+    
     "aleynac": {
       "team": "blue",
       "name": "ÂLEYNA",
@@ -240,6 +233,32 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/aleyn4.png"
     },
+    
+    
+     "oykub": {
+      "team": "blue",
+      "name": "OYKU",
+      "fullname": "Öykü Bulut",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/oykub.png"
+    },   
+    
+    "yigit": {
+      "team": "red",
+      "name": "YİĞİT",
+      "fullname": "Yiğit Çalışkan",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/yigit.png"
+    },     
+    
+    "berkay": {
+      "team": "blue",
+      "name": "BERKAY",
+      "fullname": "Berkay Yuvakuran",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/berkay.png"
+    },     
+    
     "sena": {
      "active":false,
       "team": "blue",
@@ -300,7 +319,17 @@
       "fullname": "Duygu Serap Salman",
       "gender": "female",
       "photo":  "https://igdee.com/content/sw/duygu.png"
-    }
+    },
+    "baran": {
+      "active":false,
+      "team": "blue",
+      "name": "BARAN",
+      "fullname": "Baran Köse",
+      "gender": "male",
+      "photo":  "https://igdee.com/content/sw/baran.png"
+    },
+    
+    
     
   }
 }
