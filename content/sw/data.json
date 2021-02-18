@@ -88,14 +88,6 @@
       "photo": "https://igdee.com/content/sw/cagri.png"
     },
 
-    "hayrettin": {
-      "team": "red",
-      "name": "HAYRETTİN",
-      "fullname": "Hayrettin Karaoğuz",
-      "gender": "male",
-      "photo":  "https://igdee.com/content/sw/hayrettin.png"
-    },
-
   "ismail": {
       "team": "red",
       "name": "İSMAİL",
@@ -327,9 +319,16 @@
       "fullname": "Baran Köse",
       "gender": "male",
       "photo":  "https://igdee.com/content/sw/baran.png"
+    },
+    
+   "hayrettin": {
+      "active":false,
+      "team": "red",
+      "name": "HAYRETTİN",
+      "fullname": "Hayrettin Karaoğuz",
+      "gender": "male",
+      "photo":  "https://igdee.com/content/sw/hayrettin.png"
     }
-    
-    
     
   }
 }
