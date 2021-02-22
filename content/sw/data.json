@@ -260,6 +260,14 @@
       "photo": "https://igdee.com/content/sw/sena.png"
     },  
     
+    "cagman": {
+      "team": "red",
+      "name": "ÇAĞMAN",
+      "fullname": "Çağman Çatay",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/cagman.png"
+    }, 
+    
     "sancakay": {
       "active":false,
       "team": "blue",
