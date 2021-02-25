@@ -235,14 +235,7 @@
       "photo": "https://igdee.com/content/sw/oykub.png"
     },   
     
-    "yigit": {
-      "team": "red",
-      "name": "YİĞİT",
-      "fullname": "Yiğit Oruçoğlu",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/yigit.png"
-    },     
-    
+
     "berkay": {
       "team": "blue",
       "name": "BERKAY",
@@ -336,7 +329,16 @@
       "fullname": "Hayrettin Karaoğuz",
       "gender": "male",
       "photo":  "https://igdee.com/content/sw/hayrettin.png"
-    }
+    },
+    
+    "yigit": {
+      "active":false,
+      "team": "red",
+      "name": "YİĞİT",
+      "fullname": "Yiğit Oruçoğlu",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/yigit.png"
+    }   
     
   }
 }
