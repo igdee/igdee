@@ -253,14 +253,7 @@
       "photo": "https://igdee.com/content/sw/sena.png"
     },  
     
-    "cagman": {
-      "team": "red",
-      "name": "ÇAĞMAN",
-      "fullname": "Çağman Çatay",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/cagman.png"
-    }, 
-    
+
     "sancakay": {
       "active":false,
       "team": "blue",
@@ -338,7 +331,17 @@
       "fullname": "Yiğit Oruçoğlu",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/yigit.png"
-    }   
+    },   
+    
+    "cagman": {
+      "active":false,
+      "team": "red",
+      "name": "ÇAĞMAN",
+      "fullname": "Çağman Çatay",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/cagman.png"
+    }
+       
     
   }
 }
