@@ -63,15 +63,7 @@
       "photo": "https://igdee.com/content/sw/gonulluler.png",
        "group":true
     },
-    
-    "baris": {
-      "team": "red",
-      "name": "BARIŞ",
-      "fullname": "Barış Özbek",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/baris.png"
-    },
-    
+
     "batuhan": {
       "team": "red",
       "name": "BATUHAN",
@@ -227,13 +219,7 @@
     },
     
     
-     "oykub": {
-      "team": "blue",
-      "name": "OYKU",
-      "fullname": "Öykü Uysal",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/oykub.png"
-    },   
+   
     
 
     "berkay": {
@@ -340,8 +326,24 @@
       "fullname": "Çağman Çatay",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/cagman.png"
-    }
-       
+    },
     
+    "oykub": {
+      "active":false,
+      "team": "blue",
+      "name": "OYKU",
+      "fullname": "Öykü Uysal",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/oykub.png"
+    },
+       
+    "baris": {
+      "active":false,
+      "team": "red",
+      "name": "BARIŞ",
+      "fullname": "Barış Özbek",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/baris.png"
+    }
   }
 }
