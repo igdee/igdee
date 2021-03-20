@@ -186,14 +186,6 @@
       "photo": "https://igdee.com/content/sw/poyraz.png"
     },
     
-    "yunusemre": {
-      "team": "blue",
-      "name": "YUNUSEMRE",
-      "fullname": "Yunus Emre Karabacak",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/emre.png"
-    },
-    
     "dogan": {
       "team": "red",
       "name": "DOĞAN",
@@ -344,6 +336,16 @@
       "fullname": "Barış Özbek",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/baris.png"
+    },
+    
+    "yunusemre": {
+      "active":false,
+      "team": "blue",
+      "name": "YUNUSEMRE",
+      "fullname": "Yunus Emre Karabacak",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/emre.png"
     }
+    
   }
 }
