@@ -193,14 +193,7 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/dogan.png"
     },
-    
-     "gonca": {
-      "team": "red",
-      "name": "GONCA",
-      "fullname": "Gonca Kakar",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/gonca.png"
-    },
+
     
     "aleynac": {
       "team": "blue",
@@ -209,10 +202,7 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/aleyn4.png"
     },
-    
-    
-   
-    
+
 
     "berkay": {
       "team": "blue",
@@ -345,6 +335,15 @@
       "fullname": "Yunus Emre Karabacak",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/emre.png"
+    },
+        
+     "gonca": {
+      "active":false,
+      "team": "red",
+      "name": "GONCA",
+      "fullname": "Gonca Kakar",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/gonca.png"
     }
     
   }
