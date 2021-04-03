@@ -103,14 +103,7 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/merve.png"
     },
-    
-    "oyku": {
-      "team": "red",
-      "name": "ÖYKÜ",
-      "fullname": "Öykü Çelik",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/oyku.png"
-    },
+
     
     "ilayda": {
       "team": "red",
@@ -344,6 +337,15 @@
       "fullname": "Gonca Kakar",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/gonca.png"
+    },
+        
+    "oyku": {
+      "active":false,
+      "team": "red",
+      "name": "ÖYKÜ",
+      "fullname": "Öykü Çelik",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/oyku.png"
     }
     
   }
