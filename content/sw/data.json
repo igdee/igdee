@@ -179,13 +179,6 @@
       "photo": "https://igdee.com/content/sw/poyraz.png"
     },
     
-    "dogan": {
-      "team": "red",
-      "name": "DOĞAN",
-      "fullname": "Doğan Keser",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/dogan.png"
-    },
 
     
     "aleynac": {
@@ -346,7 +339,17 @@
       "fullname": "Öykü Çelik",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/oyku.png"
+    },
+   
+    "dogan": {
+      "active":false,
+      "team": "red",
+      "name": "DOĞAN",
+      "fullname": "Doğan Keser",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/dogan.png"
     }
+
     
   }
 }
