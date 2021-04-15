@@ -139,14 +139,6 @@
       "photo":  "https://igdee.com/content/sw/ayse.png"
     },
    
-    "hanzade": {
-      "team": "blue",
-      "name": "HANZADE",
-      "fullname": "Hanzade Ofluoğlu",
-      "gender": "female",
-      "photo":  "https://igdee.com/content/sw/hanzade.png"
-    },
-
     "steven": {
       "team": "blue",
       "name": "STEVEN",
@@ -348,6 +340,15 @@
       "fullname": "Doğan Keser",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/dogan.png"
+    },
+    
+    "hanzade": {
+      "active":false,
+      "team": "blue",
+      "name": "HANZADE",
+      "fullname": "Hanzade Ofluoğlu",
+      "gender": "female",
+      "photo":  "https://igdee.com/content/sw/hanzade.png"
     }
 
     
