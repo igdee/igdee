@@ -146,14 +146,7 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/steven.png"
     },
-    
-    "resat": {
-      "team": "blue",
-      "name": "REŞAT",
-      "fullname": "Sultan Reşat Hacıahmetoğlu",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/resat.png"
-    },
+   
     
     "dora": {
       "team": "blue",
@@ -349,6 +342,15 @@
       "fullname": "Hanzade Ofluoğlu",
       "gender": "female",
       "photo":  "https://igdee.com/content/sw/hanzade.png"
+    },
+    
+    "resat": {
+      "active":false,
+      "team": "blue",
+      "name": "REŞAT",
+      "fullname": "Sultan Reşat Hacıahmetoğlu",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/resat.png"
     }
 
     
