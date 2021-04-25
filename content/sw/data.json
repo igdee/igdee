@@ -72,13 +72,7 @@
       "photo": "https://igdee.com/content/sw/batuhan.png"
     },
 
-    "cagri": {
-      "team": "red",
-      "name": "ÇAĞRI",
-      "fullname": "Çağrı Atakan",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/cagri.png"
-    },
+
 
   "ismail": {
       "team": "red",
@@ -351,6 +345,15 @@
       "fullname": "Sultan Reşat Hacıahmetoğlu",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/resat.png"
+    },
+    
+    "cagri": {
+      "active":false,
+      "team": "red",
+      "name": "ÇAĞRI",
+      "fullname": "Çağrı Atakan",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/cagri.png"
     }
 
     
