@@ -98,15 +98,6 @@
       "photo": "https://igdee.com/content/sw/merve.png"
     },
 
-    
-    "ilayda": {
-      "team": "red",
-      "name": "İLAYDA",
-      "fullname": "İlayda Şeker",
-      "gender": "female",
-      "photo":  "https://igdee.com/content/sw/ilayda.png"
-    },
-    
      "sergen": {
       "team": "red",
       "name": "SERGEN",
@@ -354,6 +345,15 @@
       "fullname": "Çağrı Atakan",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/cagri.png"
+    },
+    
+    "ilayda": {
+      "active":false,
+      "team": "red",
+      "name": "İLAYDA",
+      "fullname": "İlayda Şeker",
+      "gender": "female",
+      "photo":  "https://igdee.com/content/sw/ilayda.png"
     }
 
     
