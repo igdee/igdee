@@ -35,6 +35,7 @@
   ],
 
   "teams": {
+ 
     "red": {
       "name": "KIRMIZI TAKIM",
       "color": "red"
@@ -44,6 +45,7 @@
       "name": "MAVİ TAKIM",
       "color": "blue"
     }
+    
   },
 
   "players": {
