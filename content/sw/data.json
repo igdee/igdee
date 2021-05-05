@@ -36,12 +36,12 @@
 
   "teams": {
     "red": {
-      "name": "ÜNLÜLER",
+      "name": "KIRMIZI TAKIM",
       "color": "red"
     },
     
     "blue": {
-      "name": "GÖNÜLLÜLER",
+      "name": "MAVİ TAKIM",
       "color": "blue"
     }
   },
@@ -50,17 +50,17 @@
 
     "unluler": {
       "team": "red",
-      "name": "ÜNLÜLER",
-      "fullname": "ÜNLÜLER",
-      "photo": "https://igdee.com/content/sw/unluler.png",
+      "name": "KIRMIZI TAKIM",
+      "fullname": "KIRMIZI TAKIM",
+      "photo": "https://igdee.com/content/sw/kirmizi.png",
       "group":true
     },
     
     "gonulluler": {
       "team": "blue",
-      "name": "GÖNÜLLÜLER",
-      "fullname": "GÖNÜLLÜLER",
-      "photo": "https://igdee.com/content/sw/gonulluler.png",
+      "name": "MAVİ TAKIM",
+      "fullname": "MAVİ TAKIM",
+      "photo": "https://igdee.com/content/sw/mavi.png",
        "group":true
     },
 
@@ -82,16 +82,8 @@
       "photo": "https://igdee.com/content/sw/ismail.png"
     },
         
-    "melis": {
-      "team": "red",
-      "name": "MELİS",
-      "fullname": "Melis Sezer",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/melis.png"
-    },
-    
     "merve": {
-      "team": "red",
+      "team": "blue",
       "name": "MERVE",
       "fullname": "Merve Aydın",
       "gender": "female",
@@ -99,17 +91,15 @@
     },
 
      "sergen": {
-      "team": "red",
+      "team": "blue",
       "name": "SERGEN",
       "fullname": "Sergen Bayar",
       "gender": "male",
       "photo":  "https://igdee.com/content/sw/sergen.png"
     },
     
-
-    
     "aleyna": {
-      "team": "blue",
+      "team": "red",
       "name": "ALEYNA",
       "fullname": "Aleyna Kalaycıoğlu",
       "gender": "female",
@@ -148,20 +138,17 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/poyraz.png"
     },
-    
-
-    
+ 
     "aleynac": {
-      "team": "blue",
+      "team": "red",
       "name": "ÂLEYNA",
       "fullname": "Aleyna Çalışkan",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/aleyn4.png"
     },
 
-
     "berkay": {
-      "team": "blue",
+      "team": "red",
       "name": "BERKAY",
       "fullname": "Berkay Yuvakuran",
       "gender": "male",
@@ -177,7 +164,6 @@
       "photo": "https://igdee.com/content/sw/sena.png"
     },  
     
-
     "sancakay": {
       "active":false,
       "team": "blue",
@@ -354,7 +340,17 @@
       "fullname": "İlayda Şeker",
       "gender": "female",
       "photo":  "https://igdee.com/content/sw/ilayda.png"
+    },
+    
+    "melis": {
+      "active":false,
+      "team": "red",
+      "name": "MELİS",
+      "fullname": "Melis Sezer",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/melis.png"
     }
+    
 
     
   }
