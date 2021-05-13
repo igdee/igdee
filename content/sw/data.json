@@ -91,14 +91,6 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/merve.png"
     },
-
-     "sergen": {
-      "team": "blue",
-      "name": "SERGEN",
-      "fullname": "Sergen Bayar",
-      "gender": "male",
-      "photo":  "https://igdee.com/content/sw/sergen.png"
-    },
     
     "aleyna": {
       "team": "red",
@@ -351,6 +343,15 @@
       "fullname": "Melis Sezer",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/melis.png"
+    },
+    
+    "sergen": {
+      "active":false,
+      "team": "blue",
+      "name": "SERGEN",
+      "fullname": "Sergen Bayar",
+      "gender": "male",
+      "photo":  "https://igdee.com/content/sw/sergen.png"
     }
     
 
