@@ -50,22 +50,6 @@
 
   "players": {
 
-    "unluler": {
-      "team": "red",
-      "name": "KIRMIZI TAKIM",
-      "fullname": "KIRMIZI TAKIM",
-      "photo": "https://igdee.com/content/sw/kirmizi.png",
-      "group":true
-    },
-    
-    "gonulluler": {
-      "team": "blue",
-      "name": "MAVİ TAKIM",
-      "fullname": "MAVİ TAKIM",
-      "photo": "https://igdee.com/content/sw/mavi.png",
-       "group":true
-    },
-
     "batuhan": {
       "team": "red",
       "name": "BATUHAN",
