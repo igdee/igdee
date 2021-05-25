@@ -50,6 +50,78 @@
 
   "players": {
 
+     "sakis": {
+      "team": "greece",
+      "name": "SAKIS",
+      "fullname": "SAKIS",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/man.png"
+    },
+    
+     "marialena": {
+      "team": "greece",
+      "name": "MARIALENA",
+      "fullname": "MARIALENAs",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/woman.png"
+    },   
+  
+    "ilias": {
+      "team": "greece",
+      "name": "ILIAS",
+      "fullname": "ILIAS",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/man.png"
+    },   
+   
+    "carolina": {
+      "team": "greece",
+      "name": "CAROLINA",
+      "fullname": "CAROLINA",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/woman.png"
+    },   
+       
+    "giorgos": {
+      "team": "greece",
+      "name": "GIORGOS",
+      "fullname": "GIORGOS",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/man.png"
+    },   
+    
+    "koromis": {
+      "team": "greece",
+      "name": "G.KOROMIS",
+      "fullname": "G.KOROMIS",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/man.png"
+    }, 
+    
+    "eleni": {
+      "team": "greece",
+      "name": "ELENI",
+      "fullname": "ELENI",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/woman.png"
+    },   
+
+    "nikoleta": {
+      "team": "greece",
+      "name": "NIKOLETA",
+      "fullname": "NIKOLETA",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/man.png"
+    },   
+        
+    "triantafillios": {
+      "team": "greece",
+      "name": "TRIANTAFILLOS",
+      "fullname": "TRIANTAFILLOS",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/man.png"
+    },  
+    
     "batuhan": {
       "team": "red",
       "name": "BATUHAN",
@@ -57,8 +129,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/batuhan.png"
     },
-
-
 
   "ismail": {
       "team": "red",
