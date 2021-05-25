@@ -48,71 +48,7 @@
     
   },
 
-  "players": {
-
-     "sakis": {
-      "team": "red",
-      "name": "SAKIS",
-      "fullname": "SAKIS",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/man.png"
-    },
-    
-     "marialena": {
-      "team": "red",
-      "name": "MARIALENA",
-      "fullname": "MARIALENAs",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/woman.png"
-    },   
-  
-    "ilias": {
-      "team": "blue",
-      "name": "ILIAS",
-      "fullname": "ILIAS",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/man.png"
-    },   
-   
-    "carolina": {
-      "team": "blue",
-      "name": "CAROLINA",
-      "fullname": "CAROLINA",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/woman.png"
-    },   
-       
-    "george": {
-      "team": "blue",
-      "name": "GEORGE",
-      "fullname": "GEORGE",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/man.png"
-    },   
-    
-    "koro": {
-      "team": "blue",
-      "name": "KORO",
-      "fullname": "KORO",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/man.png"
-    }, 
-    
-    "eleni": {
-      "team": "red",
-      "name": "ELENI",
-      "fullname": "ELENI",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/woman.png"
-    },     
-        
-    "triantaphillos": {
-      "team": "red",
-      "name": "TRIANTAPHILLOS",
-      "fullname": "TRIANTAPHILLOS",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/man.png"
-    },  
+  "players": { 
     
     "batuhan": {
       "team": "red",
