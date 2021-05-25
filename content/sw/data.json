@@ -51,7 +51,7 @@
   "players": {
 
      "sakis": {
-      "team": "greece",
+      "team": "red",
       "name": "SAKIS",
       "fullname": "SAKIS",
       "gender": "male",
@@ -59,7 +59,7 @@
     },
     
      "marialena": {
-      "team": "greece",
+      "team": "blue",
       "name": "MARIALENA",
       "fullname": "MARIALENAs",
       "gender": "female",
@@ -67,7 +67,7 @@
     },   
   
     "ilias": {
-      "team": "greece",
+      "team": "red",
       "name": "ILIAS",
       "fullname": "ILIAS",
       "gender": "male",
@@ -75,7 +75,7 @@
     },   
    
     "carolina": {
-      "team": "greece",
+      "team": "red",
       "name": "CAROLINA",
       "fullname": "CAROLINA",
       "gender": "female",
@@ -83,7 +83,7 @@
     },   
        
     "giorgos": {
-      "team": "greece",
+      "team": "red",
       "name": "GIORGOS",
       "fullname": "GIORGOS",
       "gender": "male",
@@ -91,7 +91,7 @@
     },   
     
     "koromis": {
-      "team": "greece",
+      "team": "blue",
       "name": "G.KOROMIS",
       "fullname": "G.KOROMIS",
       "gender": "male",
@@ -99,7 +99,7 @@
     }, 
     
     "eleni": {
-      "team": "greece",
+      "team": "blue",
       "name": "ELENI",
       "fullname": "ELENI",
       "gender": "female",
@@ -107,7 +107,7 @@
     },   
 
     "nikoleta": {
-      "team": "greece",
+      "team": "red",
       "name": "NIKOLETA",
       "fullname": "NIKOLETA",
       "gender": "female",
@@ -115,7 +115,7 @@
     },   
         
     "triantafillios": {
-      "team": "greece",
+      "team": "red",
       "name": "TRIANTAFILLOS",
       "fullname": "TRIANTAFILLOS",
       "gender": "male",
