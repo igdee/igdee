@@ -66,14 +66,7 @@
       "photo": "https://igdee.com/content/sw/ismail.png"
     },
         
-    "merve": {
-      "team": "blue",
-      "name": "MERVE",
-      "fullname": "Merve Aydın",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/merve.png"
-    },
-    
+
     "aleyna": {
       "team": "red",
       "name": "ALEYNA",
@@ -334,6 +327,15 @@
       "fullname": "Sergen Bayar",
       "gender": "male",
       "photo":  "https://igdee.com/content/sw/sergen.png"
+    },
+        
+    "merve": {
+       "active":false,
+      "team": "blue",
+      "name": "MERVE",
+      "fullname": "Merve Aydın",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/merve.png"
     }
     
 
