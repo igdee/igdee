@@ -171,14 +171,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/poyraz.png"
     },
- 
-    "aleynac": {
-      "team": "red",
-      "name": "ÂLEYNA",
-      "fullname": "Aleyna Çalışkan",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/aleyn4.png"
-    },
 
     "berkay": {
       "team": "red",
@@ -394,12 +386,21 @@
     },
         
     "merve": {
-       "active":false,
+      "active":false,
       "team": "blue",
       "name": "MERVE",
       "fullname": "Merve Aydın",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/merve.png"
+    },
+    
+    "aleynac": {
+      "active":false,
+      "team": "red",
+      "name": "ÂLEYNA",
+      "fullname": "Aleyna Çalışkan",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/aleyn4.png"
     }
     
 
