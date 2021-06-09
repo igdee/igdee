@@ -83,13 +83,7 @@
       "photo":  "https://igdee.com/content/sw/ayse.png"
     },
    
-    "steven": {
-      "team": "blue",
-      "name": "STEVEN",
-      "fullname": "Steven Salam",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/steven.png"
-    },
+
    
     
     "dora": {
@@ -337,8 +331,16 @@
       "fullname": "Aleyna Çalışkan",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/aleyn4.png"
-    }
+    },
     
+    "steven": {
+      "active":false,
+      "team": "blue",
+      "name": "STEVEN",
+      "fullname": "Steven Salam",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/steven.png"
+    }
 
     
   }
