@@ -50,15 +50,6 @@
 
   "players": { 
 
-     
-    "batuhan": {
-      "team": "red",
-      "name": "BATUHAN",
-      "fullname": "Batuhan Karacakaya",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/batuhan.png"
-    },
-
   "ismail": {
       "team": "red",
       "name": "İSMAİL",
@@ -341,7 +332,18 @@
       "fullname": "Steven Salam",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/steven.png"
+    },
+    
+    
+    "batuhan": {
+      "active":false,
+      "team": "red",
+      "name": "BATUHAN",
+      "fullname": "Batuhan Karacakaya",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/batuhan.png"
     }
+
 
     
   }
