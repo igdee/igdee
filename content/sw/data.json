@@ -57,8 +57,7 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/ismail.png"
     },
-        
-
+    
     "aleyna": {
       "team": "red",
       "name": "ALEYNA",
@@ -75,17 +74,6 @@
       "photo":  "https://igdee.com/content/sw/ayse.png"
     },
    
-
-   
-    
-    "dora": {
-      "team": "blue",
-      "name": "DORA",
-      "fullname": "Uğurtan Dora",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/dora.png"
-    },
-    
     "poyraz": {
       "team": "blue",
       "name": "POYRAZ",
@@ -342,9 +330,15 @@
       "fullname": "Batuhan Karacakaya",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/batuhan.png"
-    }
-
-
+    },
     
+    "dora": {
+      "active":false,
+      "team": "blue",
+      "name": "DORA",
+      "fullname": "Uğurtan Dora",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/dora.png"
+    } 
   }
 }
