@@ -82,16 +82,7 @@
       "photo": "https://igdee.com/content/sw/poyraz.png"
     },
 
-    "berkay": {
-      "team": "red",
-      "name": "BERKAY",
-      "fullname": "Berkay Yuvakuran",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/berkay.png"
-    },     
-    
     "sena": {
-     "active":false,
       "team": "blue",
       "name": "SENA",
       "fullname": "Sena Özdemir",
@@ -100,7 +91,6 @@
     },  
     
     "sancakay": {
-      "active":false,
       "team": "blue",
       "name": "SANCAKAY",
       "fullname": "Sancakay Ilım Morgül",
@@ -109,7 +99,6 @@
     },
     
     "cemal": {
-      "active":false,
       "team": "red",
       "name": "CEMAL",
       "fullname": "Cemal Hünal",
@@ -118,7 +107,6 @@
     },
     
     "meryem": {
-      "active":false,
       "team": "red",
       "name": "MERYEM",
       "fullname": "Meryem Kasap",
@@ -127,7 +115,6 @@
     },
     
    "bahar": {
-      "active":false,
       "team": "red",
       "name": "BAHAR",
       "fullname": "Bahar Seviş",
@@ -136,7 +123,6 @@
     },
     
     "emin": {
-      "active":false,
       "team": "blue",
       "name": "EMİN",
       "fullname": "Emin Günenç",
@@ -144,7 +130,6 @@
       "photo":  "https://igdee.com/content/sw/emin.png"
     },
      "duygu": {
-      "active":false,
       "team": "blue",
       "name": "DUYGU",
       "fullname": "Duygu Serap Salman",
@@ -152,7 +137,6 @@
       "photo":  "https://igdee.com/content/sw/duygu.png"
     },
     "baran": {
-      "active":false,
       "team": "blue",
       "name": "BARAN",
       "fullname": "Baran Köse",
@@ -161,7 +145,6 @@
     },
     
    "hayrettin": {
-      "active":false,
       "team": "red",
       "name": "HAYRETTİN",
       "fullname": "Hayrettin Karaoğuz",
@@ -170,7 +153,6 @@
     },
     
     "yigit": {
-      "active":false,
       "team": "red",
       "name": "YİĞİT",
       "fullname": "Yiğit Oruçoğlu",
@@ -179,7 +161,6 @@
     },   
     
     "cagman": {
-      "active":false,
       "team": "red",
       "name": "ÇAĞMAN",
       "fullname": "Çağman Çatay",
@@ -188,7 +169,6 @@
     },
     
     "oykub": {
-      "active":false,
       "team": "blue",
       "name": "OYKU",
       "fullname": "Öykü Uysal",
@@ -197,7 +177,6 @@
     },
        
     "baris": {
-      "active":false,
       "team": "red",
       "name": "BARIŞ",
       "fullname": "Barış Özbek",
@@ -206,7 +185,6 @@
     },
     
     "yunusemre": {
-      "active":false,
       "team": "blue",
       "name": "YUNUSEMRE",
       "fullname": "Yunus Emre Karabacak",
@@ -215,7 +193,6 @@
     },
         
      "gonca": {
-      "active":false,
       "team": "red",
       "name": "GONCA",
       "fullname": "Gonca Kakar",
@@ -224,7 +201,6 @@
     },
         
     "oyku": {
-      "active":false,
       "team": "red",
       "name": "ÖYKÜ",
       "fullname": "Öykü Çelik",
@@ -233,7 +209,6 @@
     },
    
     "dogan": {
-      "active":false,
       "team": "red",
       "name": "DOĞAN",
       "fullname": "Doğan Keser",
@@ -242,7 +217,6 @@
     },
     
     "hanzade": {
-      "active":false,
       "team": "blue",
       "name": "HANZADE",
       "fullname": "Hanzade Ofluoğlu",
@@ -251,7 +225,6 @@
     },
     
     "resat": {
-      "active":false,
       "team": "blue",
       "name": "REŞAT",
       "fullname": "Sultan Reşat Hacıahmetoğlu",
@@ -260,7 +233,6 @@
     },
     
     "cagri": {
-      "active":false,
       "team": "red",
       "name": "ÇAĞRI",
       "fullname": "Çağrı Atakan",
@@ -269,7 +241,6 @@
     },
     
     "ilayda": {
-      "active":false,
       "team": "red",
       "name": "İLAYDA",
       "fullname": "İlayda Şeker",
@@ -278,7 +249,6 @@
     },
     
     "melis": {
-      "active":false,
       "team": "red",
       "name": "MELİS",
       "fullname": "Melis Sezer",
@@ -287,7 +257,6 @@
     },
     
     "sergen": {
-      "active":false,
       "team": "blue",
       "name": "SERGEN",
       "fullname": "Sergen Bayar",
@@ -296,7 +265,6 @@
     },
         
     "merve": {
-      "active":false,
       "team": "blue",
       "name": "MERVE",
       "fullname": "Merve Aydın",
@@ -305,7 +273,6 @@
     },
     
     "aleynac": {
-      "active":false,
       "team": "red",
       "name": "ÂLEYNA",
       "fullname": "Aleyna Çalışkan",
@@ -314,7 +281,6 @@
     },
     
     "steven": {
-      "active":false,
       "team": "blue",
       "name": "STEVEN",
       "fullname": "Steven Salam",
@@ -324,7 +290,6 @@
     
     
     "batuhan": {
-      "active":false,
       "team": "red",
       "name": "BATUHAN",
       "fullname": "Batuhan Karacakaya",
@@ -333,12 +298,20 @@
     },
     
     "dora": {
-      "active":false,
       "team": "blue",
       "name": "DORA",
       "fullname": "Uğurtan Dora",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/dora.png"
+    },
+   
+    "berkay": {
+      "team": "red",
+      "name": "BERKAY",
+      "fullname": "Berkay Yuvakuran",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/berkay.png"
     } 
+    
   }
 }
