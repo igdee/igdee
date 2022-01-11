@@ -1,0 +1,367 @@
+<html>
+<head>
+    <style>
+        
+        @font-face {
+            font-family: Impact;
+            src: url("file:///android_asset/impact.ttf")
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("file:///android_asset/roboto.ttf")
+        }
+
+        @font-face {
+            font-family: Oswald;
+            src: url("file:///android_asset/oswald.ttf")
+        }
+
+        @font-face {
+            font-family: WorkSans;
+            src: url("file:///android_asset/worksans.ttf")
+        }
+
+        :root {
+            --first-color: rgba(150,0,0,1);
+            --first-color-alpha: rgba(150, 0, 0, 0.3);
+            --second-color: rgba(0, 0, 150, 1);
+            --second-color-alpha: rgba(0, 0, 150, 0.3);
+            --light-color: rgba(255, 255, 255, 1);
+            --light-color-alpha: rgba(255, 255, 255, 0.8);
+            --dark-color: rgba(0, 0, 0, 1);
+            --dark-color-alpha: rgba(0, 0, 0, 0.8);
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Roboto, WorkSans, 'sans-serif';
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(90deg, var(--first-color) 0%, var(--second-color) 100%);
+        }
+
+        content {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            border: 0.3em solid var(--dark-color);
+            box-sizing: border-box;
+            align-items: center;
+            justify-content: center;
+        }
+
+        footer > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1em;
+            flex: 1;
+        }
+
+        footer div small {
+            color: var(--dark-color-alpha);
+            background: var(--light-color-alpha);
+            text-align: center;
+            font-size: 2vw;
+            margin: 0.1em;
+            padding: 3px 15px;
+            clip-path: polygon(0 50%, 5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%);
+            min-width: 20vw;
+        }
+
+        footer strong {
+            text-align: center;
+            font-family: Impact;
+            line-height: 0.9em;
+            font-size: 4vw;
+            color: var(--light-color-alpha);
+            font-weight: lighter;
+        }
+
+
+        footer h1,
+        footer h2,
+        footer h3 {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            font-family: Impact;
+            color: var(--light-color-alpha);
+            font-weight: lighter;
+        }
+
+        footer h3 {
+            line-height: 0.9em;
+            font-size: 3vw;
+        }
+
+        footer h2 {
+            line-height: 0.9em;
+            font-size: 5vw;
+        }
+
+        footer h1 {
+            line-height: 0.9em;
+            font-size: 7vw;
+        }
+
+        header {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 2;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+            header h1 {
+                clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+                background: linear-gradient(0deg, var(--dark-color-alpha), var(--dark-color) 100%);
+                color: var(--light-color);
+                font-weight: normal;
+                font-family: Impact;
+                text-align: center;
+                font-size: 4vw;
+                padding: 0.3em 9vw;
+                margin: 0;
+                z-index: 1;
+            }
+
+            header small {
+                display: block;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 2vw;
+                color: var(--light-color-alpha);
+                opacity: 0.6;
+            }
+
+        footer {
+            width: 100%;
+            position: absolute;
+            bottom: 0.29em;
+            z-index: 5;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+            footer span {
+                display: flex;
+                clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
+                background: linear-gradient(0deg, var(--dark-color) 30%, var(--dark-color-alpha) 100%);
+                color: var(--light-color);
+                font-family: Oswald;
+                font-size: 4vh;
+                line-height: 4vh;
+                padding: 1vh 4vh;
+                margin: 0;
+            }
+
+            footer > span {
+                padding: 1vh;
+                align-self: flex-end;
+            }
+
+        em {
+            font-weight: bolder;
+            position: absolute;
+            margin-top: 15vh;
+            font-size: 12vh;
+            transform: rotate(-10deg);
+            color: rgba(255,255,0, 0.8) !important;
+            text-shadow: 0 0 3px #000;
+            z-index: 3;
+            font-family: Oswald, Impact;
+            letter-spacing: normal;
+        }
+
+        body > em {
+            color: var(--light-color-alpha) !important;
+            transform: rotate(-45deg);
+            text-shadow: 0 0 10px #000;
+            font-size: 14vh;
+            margin: 0;
+            opacity: 0.5;
+        }
+
+        .first {
+            background: var(--first-color);
+            color: var(--light-color);
+        }
+
+            .first.rev {
+                color: var(--first-color);
+                background: var(--light-color-alpha);
+            }
+
+        .second {
+            background: var(--second-color);
+            color: var(--light-color);
+        }
+
+            .second.rev {
+                color: var(--second-color);
+                background: var(--light-color-alpha);
+            }
+
+        .col {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .row {
+            display: flex;
+            flex-direction: row;
+            font-size: 7pt;
+            font-family: Roboto;
+            font-weight: bold;
+        }
+
+        .table {
+            display: flex;
+            flex-direction: column;
+            max-width: 70vw;
+            width:100%;
+            margin-top:5vh;
+        }
+
+        .row > div {
+            margin: 1px 1px 0px 0px;
+            display: block;
+            text-align: center;
+            width: 100%;
+            padding: 1px 1vw;
+            border-radius: 0.5vw;
+            color: var(--light-color);
+            box-shadow: 0 0 2px var(--dark-color);
+        }
+        
+        .val {
+            width: 2vw!important;
+            text-align:center!important;
+        }
+       
+        
+        .win {
+             background: #FFFFCC!important;
+        }
+
+        .row.header div {
+            color: var(--light-color);
+            font-size: 1.2em;    
+            text-align:center!important;
+            line-height:1.2em;
+        }
+        
+        .tl {
+          text-align: left!important;
+        }
+        
+        .tr {
+          text-align: right!important;
+        }
+        
+        .bg {
+            position: fixed;
+            left: 0; top: 0;
+            right: 0; bottom: 0;
+            background: url(bg.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            opacity: 0.3;
+            z-index: -1;
+        }
+                
+        .pattern {
+            position: fixed;
+            left: var(--border-size);
+            top: var(--border-size);
+            right: var(--border-size);
+            bottom: var(--border-size);
+            background: url(pat.jpg) no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.05;
+            z-index: 13;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .wm {
+            background-image:url(wm.png)!important;
+            opacity:0.3;
+        }
+        
+        .hr {
+            display:block;
+            background:none;
+            border:none;
+            height:1vh;
+            align-self:start;
+        }
+    </style>
+</head>
+<body>
+
+    <em>@surviwords</em>
+    <header>
+        <h1>
+            <span></span>
+            <small></small>
+        </h1>
+    </header>
+
+    
+    <content>
+        
+        <span class="pattern"></span>
+        
+        <div class="table">
+
+            <div class="row header">
+                <div class="first"></div>
+                <div class="second"></div>
+            </div>
+
+            <div class="row">
+                <div class="first rev">-</div>
+                <div class="first rev val">-</div>
+                <div class="second rev val">-</div>
+                <div class="second rev">-</div>
+            </div>
+            
+        </div>
+
+    </content>
+
+    <footer>
+
+        <div>
+            <h1></h1>
+        </div>
+
+        <span>
+            <span></span>
+        </span>
+
+        <div>
+            <h1></h1>
+        </div>
+
+    </footer>
+
+    <em></em>
+    <div class="bg"></div>
+</body>
+</html>
