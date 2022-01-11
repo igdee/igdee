@@ -162,7 +162,7 @@
     },   
     
     "ardahan": {
-      "team": "red",
+      "team": "blue",
       "name": "ARDAHAN",
       "fullname": "Ardahan Uzkanbaş",
       "gender": "male",
@@ -242,7 +242,7 @@
     },
     
     "sude": {
-      "team": "red",
+      "team": "blue",
       "name": "SUDE",
       "fullname": "Sude Burcu",
       "gender": "female",
@@ -250,7 +250,7 @@
     },
     
     "yasin": {
-      "team": "red",
+      "team": "blue",
       "name": "YASİN",
       "fullname": "Yasin Obuz",
       "gender": "male",
