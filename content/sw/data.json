@@ -255,6 +255,15 @@
       "fullname": "Yasin Obuz",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/yasin.png"
+    },
+	  
+    "yagmur": {
+      "team": "blue",
+      "name": "YAĞMUR",
+      "fullname": "Yağmur Banda",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/yagmur.png"
     }
+	  
   }
 }
