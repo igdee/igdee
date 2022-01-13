@@ -25,9 +25,9 @@
         }
 
         :root {
-            --first-color: rgba(100,0,0,1);
+            --first-color: rgba(100,0,0,0.8);
             --first-color-alpha: rgba(100, 0, 0, 0.3);
-            --second-color: rgba(0, 0, 100, 1);
+            --second-color: rgba(0, 0, 100, 0.8);
             --second-color-alpha: rgba(0, 0, 100, 0.3);
             --light-color: rgba(255, 255, 255, 1);
             --light-color-alpha: rgba(255, 255, 255, 0.8);
@@ -52,8 +52,11 @@
             align-items: stretch;
             display: flex;
             flex-direction: row;
-            border: 3px solid var(--dark-color);
+            border: 0px solid var(--dark-color);
             box-sizing: border-box;
+	    background:url(https://igdee.com/content/sw/bg.jpg) no-repeat center center fixed;
+	   background-size: cover;
+		
         }
 
             content > div {
@@ -63,6 +66,7 @@
                 align-items: center;
                 justify-content: center;
                 flex: 1;
+
             }
 
                 content > div.left {
@@ -173,8 +177,8 @@
                 font-weight: normal;
                 font-family: Impact;
                 text-align: center;
-                font-size: 7vh;
-                padding: 0.2em 9vw;
+                font-size: 3vw;
+                padding: 0.1em 9vw;
                 margin: 0;
             }
 
@@ -307,7 +311,6 @@
 	<div class="effect">
 	</div>
 	
-
     <content>
 
 
