@@ -50,6 +50,22 @@
 
   "players": { 
 
+  "unluler": {
+      "team": "red",
+      "name": "ÜNLÜLER",
+      "fullname": "ÜNLÜLER",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/unluler.png"
+    },
+	  
+  "gonulluler": {
+      "team": "blue",
+      "name": "GÖNÜLLÜLER",
+      "fullname": "GÖNÜLLÜLER",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/gonulluler.png"
+    },	  
+	  
   "adem": {
       "team": "red",
       "name": "ADEM",
