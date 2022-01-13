@@ -67,8 +67,8 @@
 
                 content > div.left {
                  
-                    margin-right:-12%;
-                     -webkit-mask-image:  -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(80%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
+                    margin-right:0;
+                     -webkit-mask-image:  -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
                     background: var(--first-color);
                     z-index: 1;
                 }
@@ -275,9 +275,23 @@
             opacity:0.3;
         }
 
+		.effect {
+			display:block;
+			position:absolute;
+			left:0;right:0;top:0;bottom:0;
+			background-image:url(https://igdee.com/content/sw/fire-effect.jpg);
+			filter: grayscale(100%);
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-position:left bottom;
+			opacity:0.3;
+			z-index:2;
+		}
+		
     </style>
 </head>
 <body>
+
 
     <em class="by">@surviwords</em>
     
@@ -289,12 +303,15 @@
     </header>
 
     <div class="pattern"></div>
+	
+	<div class="effect">
+	</div>
+	
 
     <content>
 
 
         <div class="left">
-		<em>- KAZANAN -</em>
         </div>
 
         <div class="right">
@@ -324,6 +341,6 @@
     </footer>
 
     <em></em>
-
+	
 </body>
 </html>
