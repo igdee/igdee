@@ -32,7 +32,7 @@
             --light-color: rgba(255, 255, 255, 1);
             --light-color-alpha: rgba(255, 255, 255, 0.8);
             --dark-color: rgba(0, 0, 0, 1);
-            --dark-color-alpha: rgba(0, 0, 0, 0.8);
+            --dark-color-alpha: rgba(0, 0, 0, 0.3);
         }
 
         body {
@@ -52,7 +52,7 @@
             align-items: stretch;
             display: flex;
             flex-direction: row;
-            border: 3px solid var(--dark-color);
+            border: 0px solid var(--dark-color);
             box-sizing: border-box;
         }
 
@@ -67,8 +67,8 @@
 
                 content > div.left {
                  
-                    margin-right:-2%;
-                     -webkit-mask-image:  -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(98%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
+                    margin-right:-12%;
+                     -webkit-mask-image:  -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(80%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
                     background: var(--first-color);
                     z-index: 1;
                 }
@@ -173,8 +173,8 @@
                 font-weight: normal;
                 font-family: Impact;
                 text-align: center;
-                font-size: 4vw;
-                padding: 0.3em 9vw;
+                font-size: 3vw;
+                padding: 0.1em 9vw;
                 margin: 0;
             }
 
@@ -183,7 +183,7 @@
                 text-align: center;
                 font-family: Roboto;
                 font-weight: bold;
-                font-size: 2vw;
+                font-size: 1.5vw;
                 color: var(--light-color-alpha);
                 opacity: 0.6;
             }
@@ -213,7 +213,7 @@
             }
 
             footer > span {
-                padding: 2vh;
+                padding: 1vh;
                 align-self: flex-end;
             }
 
@@ -223,20 +223,27 @@
             position: absolute;
             margin-top: 10vh;
             font-size: 12vh;
+			text-align:center;
             transform: rotate(-10deg);
             color: rgba(255,255,0, 0.8) !important;
             text-shadow: 0 0 3px #000;
+			font-style:normal;
+			font-weight:normal;
             z-index: 3;
             font-family: Oswald, Impact;
             letter-spacing: normal;
         }
+		
+		content > div > em {
+			font-style:italic;
+		}
 
 
         body > em {
             color: var(--light-color-alpha) !important;
             transform: rotate(0);
             text-shadow: 0 0 10px #000;
-            font-size: 15vh;
+            font-size: 12vh;
             margin: 0;
             opacity: 0.5;
         }
@@ -272,7 +279,6 @@
 </head>
 <body>
 
-
     <em class="by">@surviwords</em>
     
     <header>
@@ -288,6 +294,7 @@
 
 
         <div class="left">
+		<em>- KAZANAN -</em>
         </div>
 
         <div class="right">
@@ -298,6 +305,7 @@
     <footer>
 
         <div>
+
             <h1>
                 <strong></strong>
             </h1>
