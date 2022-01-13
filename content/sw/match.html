@@ -1,7 +1,7 @@
 <html>
 <head>
 
-    <style>
+       <style>
 
 
         @font-face {
@@ -70,9 +70,8 @@
             }
 
                 content > div.left {
-                 
                     margin-right:0;
-                     -webkit-mask-image:  -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
+                    -webkit-mask-image:  -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
                     background: var(--first-color);
                     z-index: 1;
                 }
@@ -221,13 +220,13 @@
                 align-self: flex-end;
             }
 
-
+		i,
         em {
             font-weight: bolder;
             position: absolute;
             margin-top: 10vh;
             font-size: 12vh;
-			text-align:center;
+            text-align:center;
             transform: rotate(-10deg);
             color: rgba(255,255,0, 0.8) !important;
             text-shadow: 0 0 3px #000;
@@ -242,18 +241,18 @@
 			font-style:italic;
 		}
 
-
+		body > i,
         body > em {
             color: var(--light-color-alpha) !important;
             transform: rotate(0);
             text-shadow: 0 0 10px #000;
             font-size: 11vh;
-	    line-height:11vh;
+			line-height:11vh;
             margin: 0;
             opacity: 0.5;
         }
         
-        em.by {
+        i.by {
             font-size:6vh;
             bottom:17vh;
             font-style: normal;
@@ -296,9 +295,8 @@
     </style>
 </head>
 <body>
-
-
-    <em class="by">@surviwords</em>
+	
+    <i class="by">@surviwords</i>
     
     <header>
         <h1>
@@ -309,11 +307,10 @@
 
     <div class="pattern"></div>
 	
-	<div class="effect">
-	</div>
+    <div class="effect"></div>
 	
-    <content>
 
+    <content>
 
         <div class="left">
         </div>
