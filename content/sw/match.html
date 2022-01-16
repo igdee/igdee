@@ -44,6 +44,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+	    background:#000;
         }
 
         content {
@@ -218,7 +219,15 @@
             footer > span {
                 padding: 1vh;
                 align-self: flex-end;
+		flex-direction:column;
+		align-items:center;    
             }
+	       
+	    footer > span > sup {
+	    	font-size: 3vh;
+		font-family: Oswald;
+		letter-spacing: 15;    
+	    }
 
 	i.by,
         em {
