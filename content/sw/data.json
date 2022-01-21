@@ -168,7 +168,22 @@
       "photo":  "https://igdee.com/content/sw/sercan.png"
     },
     
-	
+   "parviz": {
+      "team": "red",
+      "name": "PARVİZ",
+      "fullname": "Parviz Abdullayev",
+      "gender": "male",
+      "photo":  "https://igdee.com/content/sw/parviz.png"
+    },
+	  
+   "aysil": {
+      "team": "red",
+      "name": "AYŞIL",
+      "fullname": "Ayşıl Özaslan",
+      "gender": "female",
+      "photo":  "https://igdee.com/content/sw/aysil.png"
+    },
+	  
     "anil": {
       "team": "blue",
       "name": "ANIL",
@@ -209,13 +224,7 @@
       "photo": "https://igdee.com/content/sw/evrim.png"
     },
         
-     "gizem": {
-      "team": "blue",
-      "name": "GİZEM",
-      "fullname": "Gizem Kerimoğlu",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/gizem.png"
-    },
+
         
     "gokhan": {
       "team": "blue",
@@ -279,7 +288,26 @@
       "fullname": "Yağmur Banda",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/yagmur.png"
-    }
+    },
+	  
+    "yunusemre": {
+      "team": "blue",
+      "name": "YUNUSEMRE",
+      "fullname": "Yunus Emre Özden",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/yunusemre.png"
+    },	  
+	  
+	  
+     "gizem": {
+      "active":false,     
+      "team": "blue",
+      "name": "GİZEM",
+      "fullname": "Gizem Kerimoğlu",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/gizem.png"
+    }	  
+  
 	  
   }
 }
