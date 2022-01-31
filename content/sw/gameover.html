@@ -312,20 +312,28 @@
         }
         
         .inf {
-            display: block;
+            display: flex;
             position: fixed;
             left: 0;
             right: 0;
-            bottom: 0;
-            text-align: center;
+            bottom: 2vh;
             font-size: 8pt;
             color: #FFF;
+            font-family: Roboto;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .inf > div {
             opacity: 0.6;
             transform: scale(0.6);
             white-space: nowrap;
             transform-origin: center center;
-            font-family: Roboto;
+            text-align: center;
         }
+        
+        .inf b { color:#ffff00; font-weight:bold; }
+        
     </style>
 </head>
 <body>
