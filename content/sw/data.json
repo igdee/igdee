@@ -176,13 +176,7 @@
       "photo":  "https://igdee.com/content/sw/parviz.png"
     },
 	  
-   "aysil": {
-      "team": "red",
-      "name": "AYŞIL",
-      "fullname": "Ayşıl Özaslan",
-      "gender": "female",
-      "photo":  "https://igdee.com/content/sw/aysil.png"
-    },
+
 	  
     "anil": {
       "team": "blue",
@@ -306,8 +300,16 @@
       "fullname": "Gizem Kerimoğlu",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/gizem.png"
-    }	  
-  
+    },	  
+	  
+     "aysil": {
+      "active":false,	     
+      "team": "red",
+      "name": "AYŞIL",
+      "fullname": "Ayşıl Özaslan",
+      "gender": "female",
+      "photo":  "https://igdee.com/content/sw/aysil.png"
+    }
 	  
   }
 }
