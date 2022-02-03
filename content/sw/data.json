@@ -74,13 +74,7 @@
       "photo": "https://igdee.com/content/sw/adem.png"
     },
     
-    "aycan": {
-      "team": "red",
-      "name": "AYCAN",
-      "fullname": "Aycan Yanaç",
-      "gender": "female",
-      "photo":  "https://igdee.com/content/sw/aycan.png"
-    },
+
     
     "baris": {
       "team": "red",
@@ -309,7 +303,19 @@
       "fullname": "Ayşıl Özaslan",
       "gender": "female",
       "photo":  "https://igdee.com/content/sw/aysil.png"
+    },
+	  
+     "aycan": {
+      "team": "red",
+      "name": "AYCAN",
+      "fullname": "Aycan Yanaç",
+      "gender": "female",
+      "photo":  "https://igdee.com/content/sw/aycan.png",
+      "eleme":"2022-01-23"
+	     
     }
+	  
+	  
 	  
   }
 }
