@@ -306,6 +306,7 @@
     },
 	  
      "aycan": {
+      "active":false, 	     
       "team": "red",
       "name": "AYCAN",
       "fullname": "Aycan Yanaç",
