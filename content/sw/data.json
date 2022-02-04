@@ -170,6 +170,21 @@
       "photo":  "https://igdee.com/content/sw/parviz.png"
     },
 	  
+   "bora": {
+      "team": "red",
+      "name": "BORA",
+      "fullname": "Bora Edin",
+      "gender": "male",
+      "photo":  "https://igdee.com/content/sw/bora.png"
+    },	  
+	  
+   "memic": {
+      "team": "red",
+      "name": "MEMİÇ",
+      "fullname": "Gizem Memiç",
+      "gender": "female",
+      "photo":  "https://igdee.com/content/sw/gizemm.png"
+    },	  
 
 	  
     "anil": {
@@ -284,7 +299,39 @@
       "fullname": "Yunus Emre Özden",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/yunusemre.png"
-    },	  
+    },
+	  
+     "isiktutan": {     
+      "team": "blue",
+      "name": "A.IŞIKTUTAN",
+      "fullname": "Atakan Işıktutan",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/isiktutan.png"
+    },	
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 	  
 	  
      "gizem": {
