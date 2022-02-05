@@ -180,8 +180,9 @@
 	  
    "memic": {
       "team": "red",
-      "name": "MEMİÇ",
+      "name": "GİZEM",
       "fullname": "Gizem Memiç",
+      "alias":"MEMİÇ",   
       "gender": "female",
       "photo":  "https://igdee.com/content/sw/memic.png"
     },
@@ -303,10 +304,11 @@
 	  
      "isiktutan": {     
       "team": "blue",
-      "name": "IŞIKTUTAN",
+      "name": "ATAKAN",
       "fullname": "Atakan Işıktutan",
+      "alias":"IŞIKTUTAN",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/isiktutan.png"
+      "photo": "https://igdee.com/content/sw/isiktutan.png"	     
     },	
 
 	  
