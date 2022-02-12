@@ -167,6 +167,13 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/memic.png"
     },
+    "askim": {
+      "team": "red",
+      "name": "AŞKIM",
+      "fullname": "Aşkım Burçe Tunay",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/askim.png"
+    },
     "anil": {
       "team": "blue",
       "name": "ANIL",
@@ -273,7 +280,14 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/isiktutan.png"
     },
-	  
+    "ezgi": {
+      "team": "blue",
+      "name": "EZGİ",
+      "fullname": "Ezgi Hocaoğlu",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/ezgi.png"
+    },
+	  	  
 	  
 	  
 	  
