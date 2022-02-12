@@ -103,13 +103,7 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/elif.png"
     },
-    "furkan": {
-      "team": "red",
-      "name": "FURKAN",
-      "fullname": "Furkan Kızılay",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/furkan.png"
-    },
+
     "mert": {
       "team": "red",
       "name": "MERT",
@@ -330,6 +324,14 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/aycan.png",
       "eleme": "2022-01-23"
+    },
+    "furkan": {
+      "active": false,	    
+      "team": "red",
+      "name": "FURKAN",
+      "fullname": "Furkan Kızılay",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/furkan.png"
     }
   }
 }
