@@ -185,16 +185,13 @@
             font-family: Oswald, Impact;
             letter-spacing: normal;
         }
-
-        body > em {
-            color:transparent!important;
-            transform: rotate(-45deg);
-            -webkit-text-stroke: 3px var(--light-color-alpha);
-            text-shadow:none;
-            font-size: 13vh;
-            margin: 0;
-            opacity: 0.6;
-            z-index:1;
+        
+        #wm {
+            position:absolute;
+            left: 0; right: 0;
+            bottom: 0; top: 0;
+            background-position:center;
+            background-image:url(wm.png) no-repeat;
         }
 
         .first {
@@ -341,7 +338,7 @@
 </head>
 <body>
     <div class="inf"></div>
-    <em>surviwords</em>
+    <div id="wm">surviwords</div>
     <header>
         <h1>
             <span></span>
