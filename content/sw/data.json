@@ -274,13 +274,7 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/isiktutan.png"
     },
-    "ezgi": {
-      "team": "blue",
-      "name": "EZGİ",
-      "fullname": "Ezgi Hocaoğlu",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/ezgi.png"
-    },
+
 	  	  
 	  
 	  
@@ -332,6 +326,14 @@
       "fullname": "Furkan Kızılay",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/furkan.png"
+    },
+    "ezgi": {
+	"active": false,	   
+      "team": "blue",
+      "name": "EZGİ",
+      "fullname": "Ezgi Hocaoğlu",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/ezgi.png"
     }
   }
 }
