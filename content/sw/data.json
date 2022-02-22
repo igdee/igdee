@@ -266,14 +266,14 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/yunusemre.png"
     },
-    "isiktutan": {
+    "ayse": {
       "team": "blue",
-      "name": "ATAKAN",
-      "fullname": "Atakan Işıktutan",
-      "alias": "IŞIKTUTAN",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/isiktutan.png"
+      "name": "AYŞE",
+      "fullname": "Ayşe Yüksel",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/ayse.png"
     },
+
 
 	  	  
 	  
@@ -334,6 +334,15 @@
       "fullname": "Ezgi Hocaoğlu",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/ezgi.png"
+    },
+    "isiktutan": {
+      "active": false,	
+      "team": "blue",
+      "name": "ATAKAN",
+      "fullname": "Atakan Işıktutan",
+      "alias": "IŞIKTUTAN",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/isiktutan.png"
     }
   }
 }
