@@ -33,6 +33,7 @@
             --light-color-alpha: rgba(255, 255, 255, 0.8);
             --dark-color: rgba(0, 0, 0, 1);
             --dark-color-alpha: rgba(0, 0, 0, 0.3);
+	    --yellow-color: rgba(255,255,0, 0.8);
         }
 
         body {
@@ -120,6 +121,10 @@
             min-width: 8vw;
             clip-path: polygon(7% 0, 100% 0, 93% 100%, 0 100%);
         }
+	       
+	.gen {
+	  background: var(--yellow-color)!important;       
+	}
 
         footer > div strong {
             text-align: center;
