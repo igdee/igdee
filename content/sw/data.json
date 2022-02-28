@@ -259,13 +259,6 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/yagmur.png"
     },
-    "yunusemre": {
-      "team": "blue",
-      "name": "YUNUSEMRE",
-      "fullname": "Yunus Emre Özden",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/yunusemre.png"
-    },
     "ayse": {
       "team": "blue",
       "name": "AYŞE",
@@ -343,6 +336,14 @@
       "alias": "IŞIKTUTAN",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/isiktutan.png"
-    }
+    },
+    "yunusemre": {
+      "active": false,	
+      "team": "blue",
+      "name": "YUNUSEMRE",
+      "fullname": "Yunus Emre Özden",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/yunusemre.png"
+    }	  
   }
 }
