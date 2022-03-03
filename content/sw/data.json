@@ -31,7 +31,11 @@
     {
       "id": 8,
       "name": "KAPTANLIK OYUNU"
-    }
+    },
+    {
+      "id": 9,
+      "name": "BİREYSEL DOKUNULMAZLIK"
+    }	  
   ],
   "teams": {
     "red": {
