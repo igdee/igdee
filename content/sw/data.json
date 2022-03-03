@@ -165,13 +165,6 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/memic.png"
     },
-    "askim": {
-      "team": "red",
-      "name": "AŞKIM",
-      "fullname": "Aşkım Burçe Tunay",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/askim.png"
-    },
     "anil": {
       "team": "blue",
       "name": "ANIL",
@@ -348,6 +341,14 @@
       "fullname": "Yunus Emre Özden",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/yunusemre.png"
+    },
+    "askim": {
+      "active": false,	    
+      "team": "red",
+      "name": "AŞKIM",
+      "fullname": "Aşkım Burçe Tunay",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/askim.png"
     }	  
   }
 }
