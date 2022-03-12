@@ -85,13 +85,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/batuhan.png"
     },
-    "birsen": {
-      "team": "red",
-      "name": "BİRSEN",
-      "fullname": "Birsen Bekgöz",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/birsen.png"
-    },
     "atakan": {
       "team": "red",
       "name": "ATAKAN",
@@ -349,6 +342,14 @@
       "fullname": "Aşkım Burçe Tunay",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/askim.png"
-    }	  
+    },    
+    "birsen": {
+      "active": false,	    
+      "team": "red",
+      "name": "BİRSEN",
+      "fullname": "Birsen Bekgöz",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/birsen.png"
+    }
   }
 }
