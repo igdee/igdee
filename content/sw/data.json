@@ -129,13 +129,6 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/sema.png"
     },
-    "sercan": {
-      "team": "red",
-      "name": "SERCAN",
-      "fullname": "Sercan Yıldırım",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/sercan.png"
-    },
     "parviz": {
       "team": "red",
       "name": "PARVİZ",
@@ -350,6 +343,14 @@
       "fullname": "Birsen Bekgöz",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/birsen.png"
+    },
+    "sercan": {
+      "active": false,
+      "team": "red",
+      "name": "SERCAN",
+      "fullname": "Sercan Yıldırım",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/sercan.png"
     }
   }
 }
