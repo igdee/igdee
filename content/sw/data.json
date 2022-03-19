@@ -172,13 +172,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/berkan.png"
     },
-    "berna": {
-      "team": "blue",
-      "name": "BERNA",
-      "fullname": "Berna Keklikler",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/berna.png"
-    },
     "evrim": {
       "team": "blue",
       "name": "EVRİM",
@@ -351,6 +344,14 @@
       "fullname": "Sercan Yıldırım",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/sercan.png"
-    }
+    },
+    "berna": {
+      "active": false,
+      "team": "blue",
+      "name": "BERNA",
+      "fullname": "Berna Keklikler",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/berna.png"
+    }	 
   }
 }
