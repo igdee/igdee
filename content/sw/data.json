@@ -100,14 +100,6 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/elif.png"
     },
-
-    "mert": {
-      "team": "red",
-      "name": "MERT",
-      "fullname": "Mert Öcal",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/mert.png"
-    },
     "merve": {
       "team": "red",
       "name": "MERVE",
@@ -352,6 +344,14 @@
       "fullname": "Berna Keklikler",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/berna.png"
-    }	 
+    },
+    "mert": {
+      "active": false,
+      "team": "red",
+      "name": "MERT",
+      "fullname": "Mert Öcal",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/mert.png"
+    }
   }
 }
