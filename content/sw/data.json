@@ -128,13 +128,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/parviz.png"
     },
-    "bora": {
-      "team": "red",
-      "name": "BORA",
-      "fullname": "Bora Edin",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/bora.png"
-    },
     "memic": {
       "team": "red",
       "name": "GİZEM",
@@ -352,6 +345,14 @@
       "fullname": "Mert Öcal",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/mert.png"
-    }
+    },
+    "bora": {
+      "active": false,
+      "team": "red",
+      "name": "BORA",
+      "fullname": "Bora Edin",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/bora.png"
+    }	  
   }
 }
