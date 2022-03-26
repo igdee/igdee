@@ -93,13 +93,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/atakan.png"
     },
-    "elif": {
-      "team": "red",
-      "name": "ELİF",
-      "fullname": "Elif Gören",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/elif.png"
-    },
     "merve": {
       "team": "red",
       "name": "MERVE",
@@ -353,6 +346,14 @@
       "fullname": "Bora Edin",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/bora.png"
-    }	  
+    },
+    "elif": {
+      "active": false,
+      "team": "red",
+      "name": "ELİF",
+      "fullname": "Elif Gören",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/elif.png"
+    }
   }
 }
