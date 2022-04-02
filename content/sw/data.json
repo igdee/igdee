@@ -199,13 +199,6 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/sude.png"
     },
-    "yasin": {
-      "team": "blue",
-      "name": "YASİN",
-      "fullname": "Yasin Obuz",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/yasin.png"
-    },
     "yagmur": {
       "team": "blue",
       "name": "YAĞMUR",
@@ -354,6 +347,14 @@
       "fullname": "Elif Gören",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/elif.png"
+    },
+    "yasin": {
+      "active": false,
+      "team": "blue",
+      "name": "YASİN",
+      "fullname": "Yasin Obuz",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/yasin.png"
     }
   }
 }
