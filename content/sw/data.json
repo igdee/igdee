@@ -136,13 +136,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/anil.png"
     },
-    "ardahan": {
-      "team": "blue",
-      "name": "ARDAHAN",
-      "fullname": "Ardahan Uzkanbaş",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/ardahan.png"
-    },
     "berkan": {
       "team": "blue",
       "name": "BERKAN",
@@ -355,6 +348,14 @@
       "fullname": "Yasin Obuz",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/yasin.png"
-    }
+    },
+    "ardahan": {
+      "active": false,    
+      "team": "blue",
+      "name": "ARDAHAN",
+      "fullname": "Ardahan Uzkanbaş",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/ardahan.png"
+    }	  
   }
 }
