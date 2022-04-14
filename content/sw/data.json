@@ -121,14 +121,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/parviz.png"
     },
-    "memic": {
-      "team": "red",
-      "name": "GİZEM",
-      "fullname": "Gizem Memiç",
-      "alias": "MEMİÇ",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/memic.png"
-    },
     "anil": {
       "team": "blue",
       "name": "ANIL",
@@ -356,6 +348,15 @@
       "fullname": "Ardahan Uzkanbaş",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/ardahan.png"
+    },
+    "memic": {
+      "active": false,    
+      "team": "red",
+      "name": "GİZEM",
+      "fullname": "Gizem Memiç",
+      "alias": "MEMİÇ",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/memic.png"
     }	  
   }
 }
