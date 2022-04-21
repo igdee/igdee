@@ -39,31 +39,15 @@
   ],
   "teams": {
     "red": {
-      "name": "ÜNLÜLER",
+      "name": "KIRMIZI TAKIM",
       "color": "red"
     },
     "blue": {
-      "name": "GÖNÜLLÜLER",
+      "name": "MAVİ TAKIM",
       "color": "blue"
     }
   },
   "players": {
-    "unluler": {
-      "team": "red",
-      "name": "ÜNLÜLER",
-      "fullname": "ÜNLÜLER",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/unluler.png",
-      "hide": true
-    },
-    "gonulluler": {
-      "team": "blue",
-      "name": "GÖNÜLLÜLER",
-      "fullname": "GÖNÜLLÜLER",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/gonulluler.png",
-      "hide": true
-    },
     "adem": {
       "team": "red",
       "name": "ADEM",
@@ -101,7 +85,7 @@
       "photo": "https://igdee.com/content/sw/merve.png"
     },
     "nagihan": {
-      "team": "red",
+      "team": "blue",
       "name": "NAGİHAN",
       "fullname": "Nagihan Karadere",
       "gender": "female",
@@ -115,7 +99,7 @@
       "photo": "https://igdee.com/content/sw/sema.png"
     },
     "parviz": {
-      "team": "red",
+      "team": "blue",
       "name": "PARVİZ",
       "fullname": "Parviz Abdullayev",
       "gender": "male",
@@ -143,7 +127,7 @@
       "photo": "https://igdee.com/content/sw/evrim.png"
     },
     "gokhan": {
-      "team": "blue",
+      "team": "red",
       "name": "GÖKHAN",
       "fullname": "Gökhan Keser",
       "gender": "male",
@@ -178,18 +162,11 @@
       "photo": "https://igdee.com/content/sw/seda.png"
     },
     "sude": {
-      "team": "blue",
+      "team": "red",
       "name": "SUDE",
       "fullname": "Sude Burcu",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/sude.png"
-    },
-    "yagmur": {
-      "team": "blue",
-      "name": "YAĞMUR",
-      "fullname": "Yağmur Banda",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/yagmur.png"
     },
     "ayse": {
       "team": "blue",
@@ -357,6 +334,14 @@
       "alias": "MEMİÇ",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/memic.png"
-    }	  
+    },
+    "yagmur": {
+      "active": false,    
+      "team": "blue",
+      "name": "YAĞMUR",
+      "fullname": "Yağmur Banda",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/yagmur.png"
+    }  
   }
 }
