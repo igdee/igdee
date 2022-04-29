@@ -125,13 +125,6 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/evrim.png"
     },
-    "gokhan": {
-      "team": "red",
-      "name": "GÖKHAN",
-      "fullname": "Gökhan Keser",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/gokhan.png"
-    },
     "hikmet": {
       "team": "blue",
       "name": "HİKMET",
@@ -341,6 +334,14 @@
       "fullname": "Yağmur Banda",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/yagmur.png"
-    }  
+    },
+    "gokhan": {
+      "active": false,    
+      "team": "red",
+      "name": "GÖKHAN",
+      "fullname": "Gökhan Keser",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/gokhan.png"
+    } 
   }
 }
