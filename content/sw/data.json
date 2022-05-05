@@ -55,13 +55,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/adem.png"
     },
-    "baris": {
-      "team": "red",
-      "name": "BARIŞ",
-      "fullname": "Barış Murat Yağcı",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/baris.png"
-    },
     "batuhan": {
       "team": "red",
       "name": "BATUHAN",
@@ -342,6 +335,14 @@
       "fullname": "Gökhan Keser",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/gokhan.png"
-    } 
+    },
+    "baris": {
+      "active": false,   
+      "team": "red",
+      "name": "BARIŞ",
+      "fullname": "Barış Murat Yağcı",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/baris.png"
+    }	  
   }
 }
