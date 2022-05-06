@@ -69,13 +69,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/atakan.png"
     },
-    "merve": {
-      "team": "red",
-      "name": "MERVE",
-      "fullname": "Merve Aydın",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/merve.png"
-    },
     "nagihan": {
       "team": "blue",
       "name": "NAGİHAN",
@@ -89,13 +82,6 @@
       "fullname": "Sema Aydemir",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/sema.png"
-    },
-    "parviz": {
-      "team": "blue",
-      "name": "PARVİZ",
-      "fullname": "Parviz Abdullayev",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/parviz.png"
     },
     "anil": {
       "team": "red",
@@ -343,6 +329,22 @@
       "fullname": "Barış Murat Yağcı",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/baris.png"
-    }	  
+    },
+    "merve": {
+      "active": false,       
+      "team": "red",
+      "name": "MERVE",
+      "fullname": "Merve Aydın",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/merve.png"
+    },
+    "parviz": {
+      "active": false, 
+      "team": "blue",
+      "name": "PARVİZ",
+      "fullname": "Parviz Abdullayev",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/parviz.png"
+    },
   }
 }
