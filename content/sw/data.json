@@ -125,13 +125,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/ogeday.png"
     },
-    "seda": {
-      "team": "blue",
-      "name": "SEDA",
-      "fullname": "Seda Ocak",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/seda.png"
-    },
     "sude": {
       "team": "red",
       "name": "SUDE",
@@ -345,6 +338,14 @@
       "fullname": "Parviz Abdullayev",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/parviz.png"
-    }
+    },
+    "seda": {
+      "active": false, 
+      "team": "blue",
+      "name": "SEDA",
+      "fullname": "Seda Ocak",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/seda.png"
+    },
   }
 }
