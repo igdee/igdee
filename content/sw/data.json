@@ -125,13 +125,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/ogeday.png"
     },
-    "sude": {
-      "team": "red",
-      "name": "SUDE",
-      "fullname": "Sude Burcu",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/sude.png"
-    },
     "ayse": {
       "team": "red",
       "name": "AYŞE",
@@ -346,6 +339,14 @@
       "fullname": "Seda Ocak",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/seda.png"
+    },
+    "sude": {
+      "active": false, 
+      "team": "red",
+      "name": "SUDE",
+      "fullname": "Sude Burcu",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/sude.png"
     }
   }
 }
