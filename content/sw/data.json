@@ -70,7 +70,7 @@
       "photo": "https://igdee.com/content/sw/atakan.png"
     },
     "nagihan": {
-      "team": "blue",
+      "team": "red",
       "name": "NAGİHAN",
       "fullname": "Nagihan Karadere",
       "gender": "female",
@@ -90,13 +90,6 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/berkan.png"
     },
-    "evrim": {
-      "team": "red",
-      "name": "EVRİM",
-      "fullname": "Evrim Keklik",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/evrim.png"
-    },
     "hikmet": {
       "team": "blue",
       "name": "HİKMET",
@@ -105,7 +98,7 @@
       "photo": "https://igdee.com/content/sw/hikmet.png"
     },
     "nisa": {
-      "team": "red",
+      "team": "blue",
       "name": "NİSA",
       "fullname": "Nisa Bölükbaşı",
       "gender": "female",
@@ -119,7 +112,7 @@
       "photo": "https://igdee.com/content/sw/ogeday.png"
     },
     "ayse": {
-      "team": "blue",
+      "team": "red",
       "name": "AYŞE",
       "fullname": "Ayşe Yüksel",
       "gender": "female",
@@ -180,7 +173,7 @@
       "photo": "https://igdee.com/content/sw/furkan.png"
     },
     "ezgi": {
-	"active": false,	   
+      "active": false,	   
       "team": "blue",
       "name": "EZGİ",
       "fullname": "Ezgi Hocaoğlu",
@@ -348,6 +341,14 @@
       "fullname": "Sema Aydemir",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/sema.png"
+    },
+    "evrim": {
+      "active": false,
+      "team": "red",
+      "name": "EVRİM",
+      "fullname": "Evrim Keklik",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/evrim.png"
     }
   }
 }
