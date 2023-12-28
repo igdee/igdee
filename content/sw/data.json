@@ -48,26 +48,47 @@
     }
   },
   "players": {
-    "adem": {
+    "aleyna": {
       "team": "red",
-      "name": "ADEM",
-      "fullname": "Adem Kılıççı",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/adem.png"
+      "name": "ALEYNA",
+      "fullname": "Aleyna Kalaycıoğlu",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/aleyna.png"
     },
-    "batuhan": {
+    "turabi": {
       "team": "red",
-      "name": "BATUHAN",
-      "fullname": "Batuhan Karacakaya",
+      "name": "TURABI",
+      "fullname": "Turabi Çamkıran",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/batuhan.png"
+      "photo": "https://igdee.com/content/sw/turabi.png"
     },
-    "atakan": {
-      "team": "blue",
-      "name": "ATAKAN",
-      "fullname": "Atakan Arslan",
+    "sercan": {
+      "team": "red",
+      "name": "SERCAN",
+      "fullname": "Sercan Yıldırım",
       "gender": "male",
-      "photo": "https://igdee.com/content/sw/atakan.png"
+      "photo": "https://igdee.com/content/sw/sercan.png"
+    },
+    "ozgur": {
+      "team": "red",
+      "name": "ÖZGÜR",
+      "fullname": "Özgür Tetik",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/ozgur.png"
+    },
+    "ersin": {
+      "team": "red",
+      "name": "ERSİN",
+      "fullname": "Ersin Korkut",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/ersin.png"
+    },
+    "dogukan": {
+      "team": "red",
+      "name": "DOĞUKAN",
+      "fullname": "Doğukan Manço",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/dogukan.png"
     },
     "nagihan": {
       "team": "red",
@@ -76,279 +97,125 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/nagihan.png"
     },
-    "anil": {
-      "team": "red",
-      "name": "ANIL",
-      "fullname": "Anıl Berk Baki",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/anil.png"
-    },
-    "berkan": {
-      "team": "blue",
-      "name": "BERKAN",
-      "fullname": "Berkan Karabulut",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/berkan.png"
-    },
-    "hikmet": {
-      "team": "blue",
-      "name": "HİKMET",
-      "fullname": "Hikmet Tuğsuz",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/hikmet.png"
-    },
-    "nisa": {
-      "team": "blue",
-      "name": "NİSA",
-      "fullname": "Nisa Bölükbaşı",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/nisa.png"
-    },
-    "ogeday": {
-      "team": "blue",
-      "name": "OGEDAY",
-      "fullname": "Ogeday Girişken",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/ogeday.png"
-    },
-    "ayse": {
-      "team": "red",
-      "name": "AYŞE",
-      "fullname": "Ayşe Yüksel",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/ayse.png"
-    },
-
-
-	  	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-    "gizem": {
-      "active": false,
-      "team": "blue",
-      "name": "GİZEM",
-      "fullname": "Gizem Kerimoğlu",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/gizem.png"
-    },
-    "aysil": {
-      "active": false,
-      "team": "red",
-      "name": "AYŞIL",
-      "fullname": "Ayşıl Özaslan",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/aysil.png"
-    },
-    "aycan": {
-      "active": false,
-      "team": "red",
-      "name": "AYCAN",
-      "fullname": "Aycan Yanaç",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/aycan.png",
-      "eleme": "2022-01-23"
-    },
-    "furkan": {
-      "active": false,	    
-      "team": "red",
-      "name": "FURKAN",
-      "fullname": "Furkan Kızılay",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/furkan.png"
-    },
-    "ezgi": {
-      "active": false,	   
-      "team": "blue",
-      "name": "EZGİ",
-      "fullname": "Ezgi Hocaoğlu",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/ezgi.png"
-    },
-    "isiktutan": {
-      "active": false,	
-      "team": "blue",
-      "name": "ATAKAN",
-      "fullname": "Atakan Işıktutan",
-      "alias": "IŞIKTUTAN",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/isiktutan.png"
-    },
-    "yunusemre": {
-      "active": false,	
-      "team": "blue",
-      "name": "YUNUSEMRE",
-      "fullname": "Yunus Emre Özden",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/yunusemre.png"
-    },
-    "askim": {
-      "active": false,	    
-      "team": "red",
-      "name": "AŞKIM",
-      "fullname": "Aşkım Burçe Tunay",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/askim.png"
-    },    
-    "birsen": {
-      "active": false,	    
-      "team": "red",
-      "name": "BİRSEN",
-      "fullname": "Birsen Bekgöz",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/birsen.png"
-    },
-    "sercan": {
-      "active": false,
-      "team": "red",
-      "name": "SERCAN",
-      "fullname": "Sercan Yıldırım",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/sercan.png"
-    },
-    "berna": {
-      "active": false,
-      "team": "blue",
-      "name": "BERNA",
-      "fullname": "Berna Keklikler",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/berna.png"
-    },
-    "mert": {
-      "active": false,
-      "team": "red",
-      "name": "MERT",
-      "fullname": "Mert Öcal",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/mert.png"
-    },
-    "bora": {
-      "active": false,
-      "team": "red",
-      "name": "BORA",
-      "fullname": "Bora Edin",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/bora.png"
-    },
-    "elif": {
-      "active": false,
-      "team": "red",
-      "name": "ELİF",
-      "fullname": "Elif Gören",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/elif.png"
-    },
-    "yasin": {
-      "active": false,
-      "team": "blue",
-      "name": "YASİN",
-      "fullname": "Yasin Obuz",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/yasin.png"
-    },
-    "ardahan": {
-      "active": false,    
-      "team": "blue",
-      "name": "ARDAHAN",
-      "fullname": "Ardahan Uzkanbaş",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/ardahan.png"
-    },
-    "memic": {
-      "active": false,    
-      "team": "red",
-      "name": "GİZEM",
-      "fullname": "Gizem Memiç",
-      "alias": "MEMİÇ",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/memic.png"
-    },
-    "yagmur": {
-      "active": false,    
-      "team": "blue",
-      "name": "YAĞMUR",
-      "fullname": "Yağmur Banda",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/yagmur.png"
-    },
-    "gokhan": {
-      "active": false,    
-      "team": "red",
-      "name": "GÖKHAN",
-      "fullname": "Gökhan Keser",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/gokhan.png"
-    },
-    "baris": {
-      "active": false,   
-      "team": "red",
-      "name": "BARIŞ",
-      "fullname": "Barış Murat Yağcı",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/baris.png"
-    },
     "merve": {
-      "active": false,       
       "team": "red",
       "name": "MERVE",
       "fullname": "Merve Aydın",
       "gender": "female",
       "photo": "https://igdee.com/content/sw/merve.png"
     },
-    "parviz": {
-      "active": false, 
-      "team": "blue",
-      "name": "PARVİZ",
-      "fullname": "Parviz Abdullayev",
-      "gender": "male",
-      "photo": "https://igdee.com/content/sw/parviz.png"
+    "gizem": {
+      "team": "red",
+      "name": "GİZEM",
+      "fullname": "Gizem Memiç",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/gizem.png"
     },
-    "seda": {
-      "active": false, 
+    "pinar": {
+      "team": "red",
+      "name": "PINAR",
+      "fullname": "Pınar Saka",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/pinar.png"
+    },
+    "berna": {
+      "team": "red",
+      "name": "BERNA",
+      "fullname": "Berna Canbeldek",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/berna.png"
+    },
+    "bozok": {
+      "team": "red",
+      "name": "BOZOK",
+      "fullname": "Bozok Gören",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/bozok.png"
+    },
+	  
+    "hakan": {
       "team": "blue",
-      "name": "SEDA",
+      "name": "HAKAN",
+      "fullname": "Hakan Hatipoğlu",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/hakan.png"
+    },
+    "furkan": {
+      "team": "blue",
+      "name": "FURKAN",
+      "fullname": "Furkan Kızılay",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/furkan.png"
+    },
+    "yunusemre": {
+      "team": "blue",
+      "name": "YUNUSEMRE",
+      "fullname": "Yunus Emre Özden",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/yunusemre.png"
+    },	  
+    "ogeday": {
+      "team": "blue",
+      "name": "OGEDAY",
+      "fullname": "Ogeday Girişken",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/ogeday.png"
+    },	
+    "nefise": {
+      "team": "blue",
+      "name": "NEFİSE",
+      "fullname": "Nefise Karatay",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/nefise.png"
+    },	
+    "begum": {
+      "team": "blue",
+      "name": "BEGÜM",
+      "fullname": "Begüm Yücetan",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/begum.png"
+    },
+    "yasin": {
+      "team": "blue",
+      "name": "YASİN",
+      "fullname": "Yasin Obuz",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/yasin.png"
+    },
+    "damla": {
+      "team": "blue",
+      "name": "DAMLA",
+      "fullname": "Damla Can",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/damla.png"
+    },
+    "sedaocak": {
+      "team": "blue",
+      "name": "SEDAOCAK",
       "fullname": "Seda Ocak",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/seda.png"
-    },
-    "sude": {
-      "active": false, 
-      "team": "red",
-      "name": "SUDE",
-      "fullname": "Sude Burcu",
+      "photo": "https://igdee.com/content/sw/sedaocak.png"
+    }, 
+    "sedaaktuglu": {
+      "team": "blue",
+      "name": "SEDA",
+      "fullname": "Seda Aktuğlu",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/sude.png"
-    },
-    "sema": {
-      "active": false,
-      "team": "red",
-      "name": "SEMA",
-      "fullname": "Sema Aydemir",
+      "photo": "https://igdee.com/content/sw/sedaaktuglu.png"
+    }, 
+    "sahra": {
+      "team": "blue",
+      "name": "SAHRA",
+      "fullname": "Sahra Işık",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/sema.png"
-    },
-    "evrim": {
-      "active": false,
-      "team": "red",
-      "name": "EVRİM",
-      "fullname": "Evrim Keklik",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/evrim.png"
+      "photo": "https://igdee.com/content/sw/sahra.png"
+    }, 
+    "poyraz": {
+      "team": "blue",
+      "name": "POYRAZ",
+      "fullname": "Yiğit Poyraz",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/poyraz.png"
     }
   }
 }
