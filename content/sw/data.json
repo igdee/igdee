@@ -48,6 +48,29 @@
     }
   },
   "players": {
+    "red": {
+      "team": "red",
+      "name": "KIRMIZI TAKIM",
+      "fullname": "KIRMIZI TAKIM",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/red.png"
+    },
+    "blue": {
+      "team": "blue",
+      "name": "MAVİ TAKIM",
+      "fullname": "MAVİ TAKIM",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/blue.png"
+    },
+    "aleyna": {
+      "team": "red",
+      "name": "ALEYNA",
+      "fullname": "Aleyna Kalaycıoğlu",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/aleyna.png"
+    },
+
+	  
     "aleyna": {
       "team": "red",
       "name": "ALEYNA",
