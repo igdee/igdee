@@ -69,13 +69,19 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/aleyna.png"
     },
-
+    "kardelen": {
+      "team": "red",
+      "name": "KARDELEN",
+      "fullname": "Kardelen Kalender ",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/karadeniz.png"
+    },	
     "karadeniz": {
       "team": "red",
       "name": "KARADENİZ",
-      "fullname": "KARADENİZ",
+      "fullname": "Karadeniz Kılıç",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/kardelen.png"
+      "photo": "https://igdee.com/content/sw/karadeniz.png"
     },	  
     "yaman": {
       "team": "blue",
