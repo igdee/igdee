@@ -70,7 +70,20 @@
       "photo": "https://igdee.com/content/sw/aleyna.png"
     },
 
-	  
+    "kardelen": {
+      "team": "red",
+      "name": "KARDELEN",
+      "fullname": "Kardelen",
+      "gender": "female",
+      "photo": "https://igdee.com/content/sw/kardelen.png"
+    },	  
+    "yaman": {
+      "team": "blue",
+      "name": "YAMAN",
+      "fullname": "Yaman",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/yaman.png"
+    },		  
     "aleyna": {
       "team": "red",
       "name": "ALEYNA",
