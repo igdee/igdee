@@ -55,6 +55,13 @@
       "gender": "male",
       "photo": "https://igdee.com/content/sw/red.png"
     },
+    "nihat": {
+      "team": "red",
+      "name": "NİHAT",
+      "fullname": "Nihat Altınkaya ",
+      "gender": "male",
+      "photo": "https://igdee.com/content/sw/nihat.png"
+    },	  
     "blue": {
       "team": "blue",
       "name": "MAVİ TAKIM",
