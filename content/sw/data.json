@@ -69,24 +69,17 @@
       "gender": "female",
       "photo": "https://igdee.com/content/sw/aleyna.png"
     },
-    "kardelen": {
-      "team": "red",
-      "name": "KARDELEN",
-      "fullname": "Kardelen Kalender ",
-      "gender": "female",
-      "photo": "https://igdee.com/content/sw/karadeniz.png"
-    },	
-    "karadeniz": {
+    "kardeniz": {
       "team": "red",
       "name": "KARDENİZ",
       "fullname": "Kardeniz Kılıç",
       "gender": "female",
-      "photo": "https://igdee.com/content/sw/karadeniz.png"
+      "photo": "https://igdee.com/content/sw/kardeniz.png"
     },	  
     "yaman": {
       "team": "blue",
       "name": "YAMAN",
-      "fullname": "Yaman",
+      "fullname": "Yaman Keleş",
       "gender": "male",
       "photo": "https://igdee.com/content/sw/yaman.png"
     },		  
