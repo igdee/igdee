@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Elon Musk",
+    "age": 53,
+    "net_worth": 410,
+    "currency": "Billion USD",
+    "industries": ["Technology", "Automotive", "Aerospace"]
+  },
+  {
+    "name": "Jeff Bezos",
+    "age": 61,
+    "net_worth": 220,
+    "currency": "Billion USD",
+    "industries": ["E-commerce", "Cloud Computing", "Aerospace"]
+  },
+  {
+    "name": "Mark Zuckerberg",
+    "age": 40,
+    "net_worth": 210,
+    "currency": "Billion USD",
+    "industries": ["Social Media", "Technology"]
+  },
+  {
+    "name": "Larry Ellison",
+    "age": 80,
+    "net_worth": 195,
+    "currency": "Billion USD",
+    "industries": ["Software", "Technology"]
+  },
+  {
+    "name": "Warren Buffett",
+    "age": 93,
+    "net_worth": 155,
+    "currency": "Billion USD",
+    "industries": ["Investment"]
+  },
+  {
+    "name": "Bernard Arnault",
+    "age": 76,
+    "net_worth": 160,
+    "currency": "Billion USD",
+    "industries": ["Luxury Goods"]
+  },
+  {
+    "name": "Bill Gates",
+    "age": 69,
+    "net_worth": 130,
+    "currency": "Billion USD",
+    "industries": ["Software", "Philanthropy"]
+  },
+  {
+    "name": "Larry Page",
+    "age": 51,
+    "net_worth": 140,
+    "currency": "Billion USD",
+    "industries": ["Technology", "Internet"]
+  },
+  {
+    "name": "Sergey Brin",
+    "age": 50,
+    "net_worth": 135,
+    "currency": "Billion USD",
+    "industries": ["Technology", "Internet"]
+  },
+  {
+    "name": "Michael Bloomberg",
+    "age": 82,
+    "net_worth": 102,
+    "currency": "Billion USD",
+    "industries": ["Finance", "Media"]
+  }
+]
